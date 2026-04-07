@@ -184,14 +184,19 @@ class MainPageState extends State<MainPage> {
     return null;
   }
 
-  @override
-  Widget build(BuildContext context) {
-    if (Layout.mobile) {
-      return MainPageViewMobile(this);
-    } else {
-      return MainPageViewDesktop(this);
-    }
+@override
+Widget build(BuildContext context) {
+  // Get screen width
+  double screenWidth = MediaQuery.of(context).size.width;
+  
+  // Force mobile layout for screens smaller than 800px
+  if (screenWidth < 1200) {
+    return MainPageViewMobile(this);
+  } else {
+    return MainPageViewDesktop(this);
   }
+}
+
 
   void selectSpace(Space? space) {
     if (space == currentSpace) return;

@@ -5,18 +5,19 @@ import 'package:flutter/material.dart';
 import 'package:tiamat/config/style/theme_base.dart';
 import 'package:tiamat/config/style/theme_common.dart';
 import 'package:tiamat/config/style/theme_extensions.dart';
+import 'package:tiamat/config/style/vantosh_colors.dart';
 import 'dart:io' show Platform;
 
 class ThemeDarkColors {
   static const Color surfaceContainerHigh = Color.fromARGB(255, 47, 51, 55);
-  static const Color secondary = Color.fromARGB(255, 128, 128, 128);
-  static const Color primary = Color.fromARGB(255, 106, 141, 255);
+  static const Color secondary = VantoshColors.secondary;
+  static const Color primary = VantoshColors.primary;
   static const Color surface = Color.fromARGB(255, 43, 46, 49);
   static const Color surfaceContainer = Color.fromARGB(255, 38, 41, 44);
   static const Color surfaceContainerLow = Color.fromARGB(255, 30, 34, 37);
   static const Color surfaceLow3 = Color.fromARGB(255, 25, 28, 31);
   static const Color surfaceContainerLowest = Color.fromARGB(255, 19, 21, 22);
-  static const Color onSurface = Colors.white;
+  static const Color onSurface = VantoshColors.textLight;
   static const Color highlightColor = Colors.white10;
   static const Color outlineColor = Color.fromARGB(255, 30, 34, 37);
 }
@@ -24,15 +25,15 @@ class ThemeDarkColors {
 class ThemeDark {
   static ThemeData get theme {
     var scheme = ColorScheme.fromSeed(
-        seedColor: ThemeDarkColors.surface,
+        seedColor: VantoshColors.primary,
         dynamicSchemeVariant: DynamicSchemeVariant.monochrome,
-        primary: ThemeDarkColors.primary,
+        primary: VantoshColors.primary,
         onPrimary: Colors.white,
         surface: ThemeDarkColors.surface,
         surfaceContainer: ThemeDarkColors.surfaceContainer,
         surfaceContainerLow: ThemeDarkColors.surfaceContainerLow,
         surfaceContainerLowest: ThemeDarkColors.surfaceContainerLowest,
-        primaryContainer: ThemeDarkColors.primary,
+        primaryContainer: VantoshColors.primary,
         brightness: Brightness.dark,
         outline: ThemeDarkColors.surfaceContainerHigh);
 
@@ -40,8 +41,8 @@ class ThemeDark {
       const ThemeSettings(caulkBorders: true, caulkBorderRadius: 1),
       FoundationSettings(color: scheme.surfaceDim),
       const ExtraColors(
-          codeHighlight: Color(0xffc678dd),
-          linkColor: Color.fromARGB(255, 120, 120, 255))
+          codeHighlight: VantoshColors.secondary,
+          linkColor: VantoshColors.primary)
     ]);
   }
 }

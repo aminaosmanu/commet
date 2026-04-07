@@ -1,3 +1,4 @@
+import 'package:tiamat/config/style/vantosh_colors.dart';
 import 'package:commet/client/components/user_color/user_color_component.dart';
 import 'package:commet/client/matrix/matrix_client.dart';
 import 'package:commet/client/matrix/matrix_mxc_image_provider.dart';
@@ -40,16 +41,8 @@ class MatrixMember implements Member {
   static Color hashColor(String userId) {
     int hash = 0;
 
-    const colors = [
-      Color.fromRGBO(54, 139, 214, 1),
-      Color.fromRGBO(172, 59, 168, 1),
-      Color.fromRGBO(3, 179, 129, 1),
-      Color.fromRGBO(230, 79, 122, 1),
-      Color.fromRGBO(255, 129, 45, 1),
-      Color.fromRGBO(45, 194, 197, 1),
-      Color.fromRGBO(92, 86, 245, 1),
-      Color.fromRGBO(116, 209, 44, 1),
-    ];
+    const colors = VantoshColors.avatarColors;
+    
 
     for (int i = 0; i < userId.length; i++) {
       var chr = userId.codeUnitAt(i);
