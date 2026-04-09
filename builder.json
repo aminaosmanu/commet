@@ -1,0 +1,15 @@
+{
+  "project": "commet-ios",
+  "platform": "ios",
+  "github": {
+    "owner": "aminaosmanu",
+    "repo": "commet"
+  },
+  "ios": {},
+  "flutter": {
+    "version": "3.41.1",
+    "watch": {}
+  },
+  "reactNative": {},
+  "mobai": {}
+}
