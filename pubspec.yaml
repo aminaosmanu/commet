@@ -10,9 +10,9 @@ dependencies:
   build: any
   build_config: ^1.1.1
   commet_calendar_widget:
-    path: ../widgets/calendar
+    path: ./widgets/calendar
   matrix_widget_api:
-    path: ../widgets/matrix_widget_api
+    path: ./widgets/matrix_widget_api
   crypto: ^3.0.2
   desktop_drop: ^0.4.1
   desktop_notifications: ^0.6.3
@@ -64,7 +64,7 @@ dependencies:
     sdk: flutter
 
   tiamat: 
-    path: ../tiamat/
+    path: ./tiamat/
   matrix:
     git: 
       url: https://github.com/commetchat/matrix-dart-sdk.git
