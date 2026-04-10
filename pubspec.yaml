@@ -235,3 +235,5 @@ msix_config:
     clsid: 7685C041-9D17-4112-8FC4-386743A3D53E
     arguments: -ToastActivated
     display_name: Commet
+dependency_overrides:
+  meta: 1.15.0
