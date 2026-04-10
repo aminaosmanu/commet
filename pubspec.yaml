@@ -126,7 +126,7 @@ dependencies:
   launcher_entry: ^0.1.1
 dependency_overrides:
   analyzer: ^7.3.0
-
+  meta: 1.15.0
   ## For inline-reply 
   flutter_local_notifications_linux: 
     git: 
@@ -235,5 +235,3 @@ msix_config:
     clsid: 7685C041-9D17-4112-8FC4-386743A3D53E
     arguments: -ToastActivated
     display_name: Commet
-dependency_overrides:
-  meta: 1.15.0
