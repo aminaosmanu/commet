@@ -1,0 +1,28 @@
+name: Simple iOS Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.x'
+      
+      - name: List files (debug)
+        run: ls -la
+      
+      - name: Build iOS
+        run: |
+          flutter pub get
+          flutter build ipa --release --no-codesign
+      
+      - uses: actions/upload-artifact@v4
+        with:
+          name: commet-ipa
+          path: build/ios/ipa/*.ipa
