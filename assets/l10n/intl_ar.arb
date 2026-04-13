@@ -46,7 +46,8 @@
     "description": "Explains that gifs will be fetched via proxy",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { 
+        "type": "Object"}
     }
   }
 }
