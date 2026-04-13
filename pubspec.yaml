@@ -27,7 +27,7 @@ dependencies:
   http: ^1.1.0
   implicitly_animated_list: ^2.2.0
   intl: any
-  intl_utils: any
+  #intl_utils: any
   just_the_tooltip: ^0.0.12
   media_kit: ^1.2.6 # Primary package.
   media_kit_libs_video: ^1.0.7 # Native video dependencies.
@@ -171,14 +171,14 @@ flutter_launcher_icons:
   adaptive_icon_foreground: assets/images/app_icon/app_icon_transparent.png
   web: 
     image_path: assets/images/app_icon/app_icon_transparent_cropped.png
-    generate: true
+   # generate: true
   windows: 
     image_path: assets/images/app_icon/app_icon_rounded.png
-    generate: true
+    #generate: true
     icon_size: 48
   macos: 
     image_path: assets/images/app_icon/app_icon_rounded.png
-    generate: true
+    #generate: true
   ios: null
   remove_alpha_ios: true
   android: true
