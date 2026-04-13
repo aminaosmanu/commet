@@ -140,7 +140,9 @@
         "description": "Greeting to the space, supports markdown formatting",
         "type": "text",
         "placeholders": {
-            "spaceName": {}
+            "spaceName": {
+                "type": "Object"
+            }
         }
     },
     "promptAddSpace": "Přidat prostor",
