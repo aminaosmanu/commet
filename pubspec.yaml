@@ -226,7 +226,7 @@ flutter:
       fonts: 
         - asset: assets/font/code/JetBrainsMono-Regular.ttf
   uses-material-design: true
-  generate: true
+ # generate: true
 
 msix_config: 
   display_name: Commet
