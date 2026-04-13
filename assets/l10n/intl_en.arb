@@ -47,7 +47,7 @@
     "description": "Label for the list of incoming invitations, specifying which user these invitations are intended for",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelInvitations": "Invitations",
@@ -134,7 +134,7 @@
     "description": "Ask the user to confirm that they want to share their current timezone as public information on their profile",
     "type": "text",
     "placeholders": {
-      "timezone": {}
+      "timezone": { "type": "Object" }
     }
   },
   "promptProfileWriteBioHint": "Write about yourself",
@@ -238,7 +238,7 @@
     "description": "Greeting to the space, supports markdown formatting",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "promptAddSpace": "Add Space",
@@ -252,7 +252,7 @@
     "description": "Label to display that a user is calling",
     "type": "text",
     "placeholders": {
-      "callingUserName": {}
+      "callingUserName": { "type": "Object" }
     }
   },
   "promptAttachmentProcessingSendOriginal": "Send Original",
@@ -435,7 +435,7 @@
     "description": "Message to show when another user has requested to verify your matrix session. Supports markdown to emphasise the user name",
     "type": "text",
     "placeholders": {
-      "username": {}
+      "username": { "type": "Object" }
     }
   },
   "messageSasEmojiVerificationPrompt": "Check that the emoji are the same, and in the same order as on the other device",
@@ -599,7 +599,7 @@
     "description": "Text for the popup dialog confirming the intent to leave a space",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "promptLeaveRoom": "Leave Room",
@@ -613,7 +613,7 @@
     "description": "Text for the popup dialog confirming the intent to leave",
     "type": "text",
     "placeholders": {
-      "roomName": {}
+      "roomName": { "type": "Object" }
     }
   },
   "notificationSettingsNotSupported": "Push notifications are not supported on this system",
@@ -770,7 +770,7 @@
     "description": "Explains that gifs will be fetched via proxy",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelUrlPreviewInEncryptedChatTitle": "URL Preview in Encrypted Chats",
@@ -885,7 +885,7 @@
   "@labelVoipSettingsStunFallbackDescription": {
     "type": "text",
     "placeholders": {
-      "stunServer": {}
+      "stunServer": { "type": "Object" }
     }
   },
   "headerVoipSettingsDevices": "Devices",
@@ -1044,7 +1044,7 @@
     "description": "Label to use the global preference, showing the current global preference value",
     "type": "text",
     "placeholders": {
-      "pref": {}
+      "pref": { "type": "Object" }
     }
   },
   "labelDefaultTypingIndicatorsOption": "Use global preference ({pref})",
@@ -1052,7 +1052,7 @@
     "description": "Label to use the global preference, showing the current global preference value",
     "type": "text",
     "placeholders": {
-      "pref": {}
+      "pref": { "type": "Object" }
     }
   },
   "labelReadReceiptsTitle": "Read receipts",
@@ -1810,7 +1810,7 @@
     "description": "Message body for when a user sends a sticker",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserCreatedRoom": "{user} created the room!",
@@ -1818,7 +1818,7 @@
     "description": "Message body for when a user creates the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "errorMessageFailedToSend": "Failed to send",
@@ -1838,7 +1838,7 @@
     "description": "Message body for when an invitation was received, and we have a name for the sender",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "typingUsers": "{howMany,plural, =1{{user1} is typing...}=2{{user1} and {user2} are typing...}few{{user1}, {user2}, and {user3} are typing...}other{Several people are typing...}}",
@@ -1846,10 +1846,10 @@
     "description": "Text to display which users are currently typing",
     "type": "text",
     "placeholders": {
-      "howMany": {},
-      "user1": {},
-      "user2": {},
-      "user3": {}
+      "howMany": { "type": "Object" },
+      "user1": { "type": "Object" },
+      "user2": { "type": "Object" },
+      "user3": { "type": "Object" }
     }
   },
   "promptReply": "Reply",
@@ -2085,7 +2085,7 @@
     "description": "describes the update, showing the version code for the available update",
     "type": "text",
     "placeholders": {
-      "version": {}
+      "version": { "type": "Object" }
     }
   },
   "messageUserEmote": "*{user} {emote}",
@@ -2093,8 +2093,8 @@
     "description": "Message to display when a user does a custom emote (/me)",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "emote": {}
+      "user": { "type": "Object" },
+      "emote": { "type": "Object" }
     }
   },
   "messagePlaceholderUserEditedCalendar": "{user} edited the calendar",
@@ -2102,7 +2102,7 @@
     "description": "Message body for when a user edits the room calendar",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserJoinedRoom": "{user} joined the room!",
@@ -2110,7 +2110,7 @@
     "description": "Message body for when a user joins the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserLeftRoom": "{user} left the room",
@@ -2118,7 +2118,7 @@
     "description": "Message body for when a user leaves the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedAvatar": "{user} updated their avatar",
@@ -2126,7 +2126,7 @@
     "description": "Message body for when a user updates their avatar",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedName": "{user} updated their display name",
@@ -2134,7 +2134,7 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedNameDetailed": "{user} changed their display name to \"{newName}\"",
@@ -2142,8 +2142,8 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "newName": {}
+      "user": { "type": "Object" },
+      "newName": { "type": "Object" }
     }
   },
   "messagePlaceholderUserInvited": "{sender} invited {invitedUser}",
@@ -2151,8 +2151,8 @@
     "description": "Message body for when a user invites another user to the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "invitedUser": {}
+      "sender": { "type": "Object" },
+      "invitedUser": { "type": "Object" }
     }
   },
   "messagePlaceholderUserRejectedInvite": "{user} rejected the invitation",
@@ -2160,7 +2160,7 @@
     "description": "Message body for when a user rejected an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserRetractedInvite": "{sender} uninvited {user}",
@@ -2168,8 +2168,8 @@
     "description": "Message body for when a user's invitation to a room was withdrawn",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserAcceptedInvite": "{user} accepted the invitiation",
@@ -2177,7 +2177,7 @@
     "description": "Message body for when a user accepted an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserBanned": "{sender} banned {user}",
@@ -2185,8 +2185,8 @@
     "description": "Message body for when a user bans another user from the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnbanned": "{sender} unbanned {user}",
@@ -2194,8 +2194,8 @@
     "description": "Message body for when a user reverts a ban of another user",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserAnsweredCall": "{user} answered the call",
@@ -2203,7 +2203,7 @@
     "description": "Message body for when a user answers a call",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserHangupCall": "{user} ended the call",
@@ -2211,7 +2211,7 @@
     "description": "Message body for when a user hangs up a call",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserRejectCall": "{user} rejected the call",
@@ -2219,7 +2219,7 @@
     "description": "Message body for when a user rejects a call",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserInviteCall": "{user} started a call",
@@ -2227,7 +2227,7 @@
     "description": "Message body for when a user starts a call",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserPinnedEvent": "{user} pinned a message!",
@@ -2235,7 +2235,7 @@
     "description": "Message body for when a user adds an event to the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnpinnedEvent": "{user} unpinned a message",
@@ -2243,7 +2243,7 @@
     "description": "Message body for when a user removes an event from the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "matrixClientOlmMissingMessage": "libolm is not installed or was not found. End to End Encryption will not be available until this is resolved",
@@ -2281,7 +2281,7 @@
     "description": "Notification body content for when receiving an incoming call from another user",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "notificationTitleIncomingCall": "Incoming Call! ({roomName})",
@@ -2289,7 +2289,7 @@
     "description": "Notification title for when a call is being received",
     "type": "text",
     "placeholders": {
-      "roomName": {}
+      "roomName": { "type": "Object" }
     }
   }
 }
