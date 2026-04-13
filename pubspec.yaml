@@ -160,10 +160,10 @@ dev_dependencies:
     sdk: flutter
   file: any
   
-flutter_intl: 
-  class_name: T
-  main_locale: en
-  arb_dir: assets/l10n
+# flutter_intl: 
+#   class_name: T
+#   main_locale: en
+#   arb_dir: assets/l10n
 
 flutter_launcher_icons: 
   image_path: assets/images/app_icon/app_icon_filled.png
