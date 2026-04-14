@@ -3,76 +3,76 @@
   "@labelRoomsList": {
     "description": "Header label for the list of rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "fileDragDropPrompt": "Перетащите файл для загрузки...",
   "@fileDragDropPrompt": {
     "description": "Text that is shown when a user is dragging a file",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageEditedMarker": "(изменено)",
   "@messageEditedMarker": {
     "description": "Short text to mark that a message has been edited",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerGifTab": "GIF",
   "@labelEmojiPickerGifTab": {
     "description": "Label for the gif search tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerStickerTab": "Стикер",
   "@labelEmojiPickerStickerTab": {
     "description": "Label for the sticker tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerEmojiTab": "Эмодзи",
   "@labelEmojiPickerEmojiTab": {
     "description": "Label for the emoji tab in emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelInvitations": "Приглашения",
   "@labelInvitations": {
     "description": "Label for the list of incoming invitations",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelInvitationsForUser": "Приглашения для {user}",
   "@labelInvitationsForUser": {
     "description": "Label for the list of incoming invitations, specifying which user these invitations are intended for",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelJumpToLatest": "К новым сообщениям",
   "@labelJumpToLatest": {
     "description": "Label for the button which jumps the room timeline view to the latest message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMessageFailedToSend": "Отправка не удалась",
   "@errorMessageFailedToSend": {
     "description": "Text that is placed below a message when the message fails to send",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageFailedToDecrypt": "Не удалось расшифровать",
   "@messageFailedToDecrypt": {
     "description": "Placeholde text for when a message fails to decrypt",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderSticker": "{user} - отправлен стикер",
   "@messagePlaceholderSticker": {
     "description": "Message body for when a user sends a sticker",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserCreatedRoom": "{user} - комната создана!",
@@ -80,7 +80,7 @@
     "description": "Message body for when a user created the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserJoinedRoom": "{user} - присоединение к комнате!",
@@ -88,7 +88,7 @@
     "description": "Message body for when a user joins the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserLeftRoom": "{user} - выход из комнаты",
@@ -96,7 +96,7 @@
     "description": "Message body for when a user leaves the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedAvatar": "{user} - обновлено изображение профиля",
@@ -104,7 +104,7 @@
     "description": "Message body for when a user updates their avatar",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedName": "{user} - обновлено отображаемое имя",
@@ -112,7 +112,7 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserInvited": "{sender} приглас. {invitedUser}",
@@ -120,8 +120,8 @@
     "description": "Message body for when a user invites another user to the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "invitedUser": {}
+      "sender": { "type": "Object" },
+      "invitedUser": { "type": "Object" }
     }
   },
   "messagePlaceholderUserRejectedInvite": "{user} отклон. приглашение",
@@ -129,7 +129,7 @@
     "description": "Message body for when a user rejected an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelInvitationBodyWithSender": "{user} - вы были приглашены в комнату",
@@ -137,7 +137,7 @@
     "description": "Message body for when an invitation was received, and we have a name for the sender",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserEmote": "*{user}{emote}",
@@ -145,1418 +145,1418 @@
     "description": "Message to display when a user does a custom emote (/me)",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "emote": {}
+      "user": { "type": "Object" },
+      "emote": { "type": "Object" }
     }
   },
   "cantSentMessagePrompt": "У вас нет разрешения на отправку сообщений в этой комнате",
   "@cantSentMessagePrompt": {
     "description": "Text that explains the user cannot send a message in this room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRoomsList": "Комнаты",
   "@labelHomeRoomsList": {
     "description": "Short label for header of rooms list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAttachmentProcessingSendOriginal": "Отправить исходный файл",
   "@promptAttachmentProcessingSendOriginal": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelImageContainsLocationInfo": "Предупреждение: файл изображения содержит информацию о месте съёмки",
   "@labelImageContainsLocationInfo": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeInvitations": "Приглашения",
   "@labelHomeInvitations": {
     "description": "Short label for header of invitations list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRecentActivity": "Недавняя активность",
   "@labelHomeRecentActivity": {
     "description": "Short label for header of recent room activity",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeAlerts": "Оповещения",
   "@labelHomeAlerts": {
     "description": "Short label for header of alerts",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptOpenDirectMessage": "Сообщение",
   "@promptOpenDirectMessage": {
     "description": "Prompt on the button to open a direct message with another user",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipAddRoom": "Добавить комнату",
   "@tooltipAddRoom": {
     "description": "Tooltip for the button that adds a new room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceRoomsList": "Комнаты",
   "@labelSpaceRoomsList": {
     "description": "Header label for the list of rooms in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceGettingText": "Приветствуем в\n\n # {spaceName}",
   "@labelSpaceGettingText": {
     "description": "Greeting to the space, supports markdown formatting",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "directMessagesListHeaderMobile": "Личные сообщения",
   "@directMessagesListHeaderMobile": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "directMessagesListHeaderDesktop": "Личные сообщения",
   "@directMessagesListHeaderDesktop": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSubspacesList": "Пространства",
   "@labelSpaceSubspacesList": {
     "description": "Header label for the list of child spaces in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPrivate": "Частное пространство",
   "@labelSpaceVisibilityPrivate": {
     "description": "Label to display that the space is private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipSpaceSettings": "Настройки пространства",
   "@tooltipSpaceSettings": {
     "description": "Tooltip for the button that opens space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAvailableRoomsList": "Доступные комнаты",
   "@labelSpaceAvailableRoomsList": {
     "description": "Header label for the list of rooms in a space, which the user has not yet joined but are available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPublic": "Общедоступное пространство",
   "@labelSpaceVisibilityPublic": {
     "description": "Label to display that the space is publically available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSpace": "Добавить пространство",
   "@promptAddSpace": {
     "description": "Prompt to add a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "setupPageBeforeYouBegin": "Прежде, чем вы начнёте...",
   "@setupPageBeforeYouBegin": {
     "description": "Title for first time setup page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSettingsGeneral": "Общие",
   "@labelSpaceSettingsGeneral": {
     "description": "Label for general space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPushEndpoint": "Конечная точка",
   "@labelEnableUnifiedPushEndpoint": {
     "description": "Label for the Unified Push endpoint",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPush": "Уведомления по Unified Push",
   "@labelEnableUnifiedPush": {
     "description": "Label for the toggle to enable Unified Push",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUnifiedPushNoEndpointFound": "Конечная точка не найдена, что-то пошло не так:(",
   "@labelUnifiedPushNoEndpointFound": {
     "description": "Message for when a unified push endpoint could not be registered",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsAppearance": "Внешний вид",
   "@labelRoomSettingsAppearance": {
     "description": "Label for room appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsGeneral": "Общие",
   "@labelRoomSettingsGeneral": {
     "description": "Label for general room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsSecurity": "Безопасность",
   "@labelRoomSettingsSecurity": {
     "description": "Label for room security settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmCreateEmoticon": "Создать!",
   "@promptConfirmCreateEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpacePermissionSettings": "Разрешения",
   "@labelSpacePermissionSettings": {
     "description": "Label for space permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategorySpace": "Настройки пространства",
   "@labelSettingsCategorySpace": {
     "description": "Label for the overall space settings category",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsNotifications": "Уведомления",
   "@labelRoomSettingsNotifications": {
     "description": "Label for the notifications section in room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNotifyAll": "Все сообщения",
   "@labelPushRuleNotifyAll": {
     "description": "Label for the push rule which notifies for all received messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleMentionsAndKeywords": "Упоминания и ключевые слова",
   "@labelPushRuleMentionsAndKeywords": {
     "description": "Label for the push rule which notifies only for keywords and mentions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppLogs": "Журнал",
   "@labelSettingsAppLogs": {
     "description": "Label for the logs settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAppearanceSettings": "Внешний вид",
   "@labelSpaceAppearanceSettings": {
     "description": "Label for space appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNone": "Заглушить",
   "@labelPushRuleNone": {
     "description": "Label for the push rule which sends no notifications",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryptionRoomSettings": "Шифрование",
   "@promptEnableEncryptionRoomSettings": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceEmoticonSettings": "Эмотиконы",
   "@labelSpaceEmoticonSettings": {
     "description": "Label for space emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceDeveloperSettings": "Разработчик",
   "@labelSpaceDeveloperSettings": {
     "description": "Label for space developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "createEmoticonDialogTitle": "Создать эмотикон",
   "@createEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to create a new emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmDeleteEmoticon": "Вы точно хотите удалить **{emoticon}**?",
   "@promptConfirmDeleteEmoticon": {
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the emote name",
     "type": "text",
     "placeholders": {
-      "emoticon": {}
+      "emoticon": { "type": "Object" }
     }
   },
   "promptRenameEmoticon": "Переименовать эмотикон",
   "@promptRenameEmoticon": {
     "description": "Tooltip for button to rename emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsEmoticons": "Эмотиконы",
   "@labelRoomSettingsEmoticons": {
     "description": "Label for room Emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsDeveloper": "Разработчик",
   "@labelRoomSettingsDeveloper": {
     "description": "Label for room developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesTitle": "Отправка сообщений",
   "@labelMatrixPermissionsRoomSendMessagesTitle": {
     "description": "Title for the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesDescription": "Пользователи смогут удалять сообщения других пользователей",
   "@labelMatrixPermissionsRoomDeleteMessagesDescription": {
     "description": "Describes the permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsPermissions": "Разрешения",
   "@labelRoomSettingsPermissions": {
     "description": "Label for room permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsCategory": "Настройки комнаты",
   "@labelRoomSettingsCategory": {
     "description": "Label for the overall settings category of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleAdmin": "Админ",
   "@labelMatrixPermissionsRoleAdmin": {
     "description": "Label for the room administrator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleModerator": "Модератор",
   "@labelMatrixPermissionsRoleModerator": {
     "description": "Label for the room moderator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesTitle": "Удаление сообщений",
   "@labelMatrixPermissionsRoomDeleteMessagesTitle": {
     "description": "Title for permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleMember": "Участник комнаты",
   "@labelMatrixPermissionsRoleMember": {
     "description": "Label for the room member role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenTitle": "Управление дочерними комнатами",
   "@labelMatrixPermissionsSpaceManageChildrenTitle": {
     "description": "Title for permission to manage children",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenDescription": "Пользователи смогут управлять комнатами, расположенными в этом пространстве",
   "@labelMatrixPermissionsSpaceManageChildrenDescription": {
     "description": "Describes the permission to manage child rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityTitle": "Видимость истории",
   "@labelMatrixPermissionsRoomHistoryVisibilityTitle": {
     "description": "Title for the permission to add change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsTitle": "Добавление реакций",
   "@labelMatrixPermissionsRoomAddReactionsTitle": {
     "description": "Title for the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarTitle": "Задать изображение комнаты",
   "@labelMatrixPermissionsRoomAvatarTitle": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarDescription": "Изменить изображение комнаты (аватар)",
   "@labelMatrixPermissionsRoomAvatarDescription": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsDescription": "Пользователи могут добавлять реакции на сообщения",
   "@labelMatrixPermissionsRoomAddReactionsDescription": {
     "description": "describes the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesDescription": "Пользователи смогут отправлять сообщения в эту комнату",
   "@labelMatrixPermissionsRoomSendMessagesDescription": {
     "description": "Describes the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityDescription": "Пользователи смогут изменять видимость истории сообщений в этой комнате",
   "@labelMatrixPermissionsRoomHistoryVisibilityDescription": {
     "description": "describes the permission to change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsTitle": "Изменить разрешения",
   "@labelMatrixPermissionsChangeRoomPermissionsTitle": {
     "description": "Title for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserDescription": "Пользователи смогут выпинывать других из комнаты",
   "@labelMatrixPermissionsKickUserDescription": {
     "description": "Description for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicDescription": "Пользователи смогут изменять описание этой комнаты",
   "@labelMatrixPermissionsChangeRoomTopicDescription": {
     "description": "Description for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryAccount": "Учётная запись",
   "@labelSettingsCategoryAccount": {
     "description": "Label for the settings category Account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLogoutSingleAccount": "Выйти",
   "@promptLogoutSingleAccount": {
     "description": "Label for button in settings to log out of an account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabSecurity": "Безопасность",
   "@labelSettingsTabSecurity": {
     "description": "Label for the Security settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserTitle": "Блокировать пользователей",
   "@labelMatrixPermissionsBanUserTitle": {
     "description": "Title for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserDescription": "Пользователи смогут блокировать доступ других пользователей к этой комнате",
   "@labelMatrixPermissionsBanUserDescription": {
     "description": "Description for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabManageAccounts": "Управление учётными записями",
   "@labelSettingsTabManageAccounts": {
     "description": "Label for the Manage Accounts settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabProfile": "Профиль",
   "@labelSettingsTabProfile": {
     "description": "Label for the Profile settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabEmoticons": "Эмотиконы",
   "@labelSettingsTabEmoticons": {
     "description": "Label for the Emoticons settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddAccount": "Добавить уч. запись",
   "@promptAddAccount": {
     "description": "Label for button in settings to add another account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelCurrentAccountsHeader": "Текущие учётные записи",
   "@labelCurrentAccountsHeader": {
     "description": "Label for header of accounts list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabDeveloper": "Разработчик",
   "@labelSettingsTabDeveloper": {
     "description": "Label for the Developer settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixKeys": "Уничтожить ключи",
   "@promptWipeMatrixKeys": {
     "description": "Text on the button to wipe matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptGenerateMatrixRecoveryKey": "Создать ключ",
   "@promptGenerateMatrixRecoveryKey": {
     "description": "Button text to generate a recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingMatrixKeys": "Использовать имеющиеся ключи",
   "@promptUseExistingMatrixKeys": {
     "description": "Button text to opt to use existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetMatrixPassphrase": "Задать фразу",
   "@promptSetMatrixPassphrase": {
     "description": "Button text to set a passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixBackup": "Уничтожить рез. копию",
   "@promptWipeMatrixBackup": {
     "description": "Button text to wipe the matrix message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableMatrixBackup": "Включить рез. копирование",
   "@promptEnableMatrixBackup": {
     "description": "Button text to enable to encrypted message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskWipeBackupToContinue": "Для изменения ключей кросс-подписи придётся уничтожить имеющуюся резервную копию. Продолжить?",
   "@labelMatrixAskWipeBackupToContinue": {
     "description": "Asks the user if they want to wipe their existing backup to continue changing their cross signing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixWarnResetKeysIsPermanent": "Сброс ключей перманентен и уничтожит резервную копию ваших сообщений. Крайне вероятно, что вам не нужно использовать эту функцию!",
   "@labelMatrixWarnResetKeysIsPermanent": {
     "description": "Explains that resetting keys is permanent, should emphasize that this isnt really a great idea",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixConfirmSecurityPhrase": "Подтверждение кодовой фразы:",
   "@labelMatrixConfirmSecurityPhrase": {
     "description": "Prompts the user to input their passphrase again",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetupMatrixMessageBackup": "Настроить рез. копирование",
   "@promptSetupMatrixMessageBackup": {
     "description": "Text on the button to begin the setup process for message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRestoreMatrixBackupTitle": "Восстановить рез. копию",
   "@labelRestoreMatrixBackupTitle": {
     "description": "Title of the popup dialog for restoring message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchToggle": "Поиск GIF",
   "@labelGifSearchToggle": {
     "description": "Label for the toggle for enabling and disabling gif search",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchDescription": "Включить поиск GIF-анимаций через Tenor. Запросы будут передаваться через {proxyUrl}",
   "@labelGifSearchDescription": {
     "description": "Explains that gifs will be fetched via proxy",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "promptMatrixVerifySession": "Подтвердить",
   "@promptMatrixVerifySession": {
     "description": "Text on the button to verify a session",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppGeneral": "Общие",
   "@labelSettingsAppGeneral": {
     "description": "Label for the App General settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAppearance": "Внешний вид",
   "@labelSettingsAppAppearance": {
     "description": "Label for the App Appearance settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryApp": "Настройки приложения",
   "@labelSettingsCategoryApp": {
     "description": "Label for the settings category of the overall App settings/",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThirdPartyServicesTitle": "Сторонние службы",
   "@labelThirdPartyServicesTitle": {
     "description": "Header for the third party services section in settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsDeveloperMode": "Режим разработчика",
   "@labelSettingsDeveloperMode": {
     "description": "Header for the settings to enable developer mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviourTitle": "Поведение окна",
   "@labelSettingsWindowBehaviourTitle": {
     "description": "Header for the window behaviour section of settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelStickerCompatibility": "Совместимость стикера",
   "@labelStickerCompatibility": {
     "description": "Header for the settings to enable sticker compatibility mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveSpaceConfirmation": "Вы точно хотите покинуть {spaceName}?",
   "@promptLeaveSpaceConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave a space",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "messageLoginFailed": "Вход не удался...",
   "@messageLoginFailed": {
     "description": "Generic text to show that an attempted login has failed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseToggle": "Сворачивать при закрытии",
   "@labelSettingsMinimizeOnCloseToggle": {
     "description": "Label for the toggle to turn on and off minimize on close",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeDark": "Тёмная тема",
   "@labelThemeDark": {
     "description": "Label for the dark theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeLight": "Светлая тема",
   "@labelThemeLight": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeAmoled": "Чёрная",
   "@labelThemeAmoled": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoomConfirmation": "Вы точно хотите покинуть {roomName}?",
   "@promptLeaveRoomConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave",
     "type": "text",
     "placeholders": {
-      "roomName": {}
+      "roomName": { "type": "Object" }
     }
   },
   "promptLeaveSpace": "Покинуть пространство",
   "@promptLeaveSpace": {
     "description": "Text on a button to leave a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageAlreadyLoggedIn": "Уже выполнен вход в эту учётную запись",
   "@messageAlreadyLoggedIn": {
     "description": "An error message displayed when the user attempts to add an account which has already been logged in to on this device",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHomeserver": "Домашний сервер",
   "@promptHomeserver": {
     "description": "Placeholder text for homeserver field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUsername": "Имя пользователя",
   "@promptUsername": {
     "description": "Placeholder text for username field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPassword": "Пароль",
   "@promptPassword": {
     "description": "Placeholder text for password field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmitLogin": "Войти",
   "@promptSubmitLogin": {
     "description": "Prompt to submit the username and password, and attempt to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomName": "Название комнаты",
   "@promptRoomName": {
     "description": "Prompt to enter a room name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceName": "Название пространства",
   "@promptSpaceName": {
     "description": "Prompt to enter a space name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptTopic": "Описание (опциональное)",
   "@promptTopic": {
     "description": "Prompt to enter a topic for room or space, specifying that doing so is optional",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPrivateExplanation": "Эта комната будет доступна только по приглашению",
   "@roomVisibilityPrivateExplanation": {
     "description": "Explains what 'private' room visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPublicExplanation": "Эта комната будет доступна всем в Интернете",
   "@roomVisibilityPublicExplanation": {
     "description": "Explains what 'public' visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPrivateExplanation": "Эта комната будет доступна только по приглашению",
   "@spaceVisibilityPrivateExplanation": {
     "description": "Explains what 'private' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPublicExplanation": "Эта комната будет доступна всем в Интернете",
   "@spaceVisibilityPublicExplanation": {
     "description": "Explains what 'public' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPrivate": "Частная",
   "@labelVisibilityPrivate": {
     "description": "Short label for room visibility private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPublic": "Общедоступная",
   "@labelVisibilityPublic": {
     "description": "Short label for room visibility public",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryption": "Шифрование",
   "@promptEnableEncryption": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanation": "Невозможно отключить в дальнейшем",
   "@encryptionCannotBeDisabledExplanation": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomCreation": "Создать комнату!",
   "@promptConfirmRoomCreation": {
     "description": "Label for a button which confirms the creation of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceCreation": "Создать пространство!",
   "@promptConfirmSpaceCreation": {
     "description": "Label for a button which confirms the creation of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHome": "Главная",
   "@promptHome": {
     "description": "Generic prompt to go home, usually will go back to a main menu, or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptApply": "Применить",
   "@promptApply": {
     "description": "Generic prompt to apply something, probably a setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopy": "Копировать",
   "@promptCopy": {
     "description": "Prompt to copy text",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopyComplete": "Скопировано!",
   "@promptCopyComplete": {
     "description": "Prompt text for after a copy has been completed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelOr": "Или",
   "@labelOr": {
     "description": "Text that is placed between two or more options: [button1] or [button2]",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomJoin": "Присоединиться к комнате!",
   "@promptConfirmRoomJoin": {
     "description": "Label for a button which confirms the joining of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAddress": "#крутая-комната:matrix.org",
   "@placeholderRoomAddress": {
     "description": "Placeholder / Example for a room address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelCouldNotLoadRoomPreview": "Не удалось получить предпросмотр комнаты",
   "@labelCouldNotLoadRoomPreview": {
     "description": "Error message for when a room preview was not able to be loaded",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSelectedRooms": "Добавить выбранные комнаты",
   "@promptAddSelectedRooms": {
     "description": "Prompt to add the selected rooms to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingSpace": "Присоединиться к пространству",
   "@promptJoinExistingSpace": {
     "description": "Prompt to join a space which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageLoginError": "Произошла ошибка",
   "@messageLoginError": {
     "description": "A generic error message to convey that an error occured when attempting to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEncryptedPreview": "Предпросмотр ссылок в зашифрованных комнатах (Экспериментальная функция)",
   "@labelEncryptedPreview": {
     "description": "Label for the toggle for enabling and disabling encrypted url preview",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskEnableMessageBackup": "Включить облачное резервное копирование ключей?",
   "@labelMatrixAskEnableMessageBackup": {
     "description": "Asks the user if they want to enable online backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningAndBackup": "Кросс-подпись и резервное копирование",
   "@labelMatrixCrossSigningAndBackup": {
     "description": "Header label for matrix cross signing and message backup section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceJoin": "Присоединиться к пространству!",
   "@promptConfirmSpaceJoin": {
     "description": "Label for a button which confirms the joining of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomAddress": "Адрес комнаты:",
   "@promptRoomAddress": {
     "description": "Short label to prompt for the input of a room address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceAddress": "Адрес пространства:",
   "@promptSpaceAddress": {
     "description": "Short label to prompt for the input of a space address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderSpaceAddress": "#крутое-пространство:matrix.org",
   "@placeholderSpaceAddress": {
     "description": "Placeholder / Example for a space address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewSpace": "Создать новое пространство",
   "@promptCreateNewSpace": {
     "description": "Prompt to create a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExplainOnlineKeyBackup": "Облачное резервное копирование позволит получать историю сообщений даже если вы потеряете доступ ко всем своим сеансам",
   "@labelMatrixExplainOnlineKeyBackup": {
     "description": "Explains what the message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviour": "Поведение окна",
   "@labelSettingsWindowBehaviour": {
     "description": "Label for the Window Behaviour settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAdvanced": "Расширенные",
   "@labelSettingsAppAdvanced": {
     "description": "Label for the App Advanced settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigning": "Кросс-подпись",
   "@labelMatrixCrossSigning": {
     "description": "Title label for matrix cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackup": "Рез. копирование сообщений",
   "@labelMatrixMessageBackup": {
     "description": "TItle label for matrix message backup settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppNotifications": "Уведомления",
   "@labelSettingsAppNotifications": {
     "description": "Label for the App notifications settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppDeveloperUtils": "Средства разработчика",
   "@labelSettingsAppDeveloperUtils": {
     "description": "Label for the developer utils settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAccountSessions": "Сеансы",
   "@labelMatrixAccountSessions": {
     "description": "Title label for account sessions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptMatrixRecoveryKeyInput": "Ключ восстановления",
   "@promptMatrixRecoveryKeyInput": {
     "description": "Placeholder text for the recovery key input box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameTitle": "Изменить имя комнаты",
   "@labelMatrixPermissionsChangeRoomNameTitle": {
     "description": "Title for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixResetCrossSigningTitle": "Сбросить кросс-подписи",
   "@labelMatrixResetCrossSigningTitle": {
     "description": "Title for the popup dialog when resetting cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExistingMessageBackupFound": "Найдена существующая резервная копия!",
   "@labelMatrixExistingMessageBackupFound": {
     "description": "Message to explain that existing backup has been found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAbortWipingMatrixKeys": "Нееет!",
   "@promptAbortWipingMatrixKeys": {
     "description": "Text on the button which aborts wiping matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "sendEncryptedMessagePrompt": "Отправить зашифрованное сообщение",
   "@sendEncryptedMessagePrompt": {
     "description": "Placeholder text for message input in an encrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "sendUnencryptedMessagePrompt": "Отправить сообщение",
   "@sendUnencryptedMessagePrompt": {
     "description": "Placeholder text for message input in an unencrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLargeTitle": "Превышен лимит размера файла",
   "@labelChatPageFileTooLargeTitle": {
     "description": "Title for the dialog that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicTitle": "Изменить описание комнаты",
   "@labelMatrixPermissionsChangeRoomTopicTitle": {
     "description": "Title for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsDescription": "Пользователи смогут изменять разрешения",
   "@labelMatrixPermissionsChangeRoomPermissionsDescription": {
     "description": "Description for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserTitle": "Выпинывание пользователей",
   "@labelMatrixPermissionsKickUserTitle": {
     "description": "Title for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameDescription": "Пользователи смогут изменять название комнаты",
   "@labelMatrixPermissionsChangeRoomNameDescription": {
     "description": "Description for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppTheme": "Тема оформления",
   "@labelSettingsAppTheme": {
     "description": "Label for theme section of app appearance",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAppScale": "Масштабирование",
   "@labelAppScale": {
     "description": "Label for the setting which controls the UI scale of the overall app",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseExplanation": "При попытке закрытия окна приложение будет свёрнуто в область уведомлений",
   "@labelSettingsMinimizeOnCloseExplanation": {
     "description": "Explains what the 'minimize on close' setting does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "notificationSettingsNotSupported": "Пуш-уведомления не поддерживаются системой",
   "@notificationSettingsNotSupported": {
     "description": "Message to display when push notifications are not supported",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoom": "Покинуть комнату",
   "@promptLeaveRoom": {
     "description": "Text on a button to leave a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLarge": "Этот файл слишком большой. Его не выйдет загрузить!",
   "@labelChatPageFileTooLarge": {
     "description": "Text that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanationRoomSettings": "Невозможно отключить в дальнейшем",
   "@encryptionCannotBeDisabledExplanationRoomSettings": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateEmoticonPack": "Создать набор",
   "@promptCreateEmoticonPack": {
     "description": "Prompt to create a new emoticon pack, for emoji or stickers",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptImportPack": "Импортировать набор",
   "@promptImportPack": {
     "description": "Prompt to import a set of emoticons from an existing pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmDeleteEmoticonPack": "Вы точно хотите удалить набор **{packName}**?",
   "@promptConfirmDeleteEmoticonPack": {
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the pack name",
     "type": "text",
     "placeholders": {
-      "packName": {}
+      "packName": { "type": "Object" }
     }
   },
   "promptEmoticonPackName": "Название набора",
   "@promptEmoticonPackName": {
     "description": "Prompt for the input of the name of an emoticon pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptStickerName": "Название стикера",
   "@promptStickerName": {
     "description": "Prompt for the input of a sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiName": "Название эмодзи",
   "@promptEmojiName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "unifiedPushExplainer": "# Unified Push\nЭта версия Commet собрана без поддержки служб Google Play. Получение пуш-уведомлений возможно посредством [Unified Push](https://unifiedpush.org/).\n\nЕсли у вас уже установлено приложение распределения уведомлений, совместимое с Unified Push, выполнить настройку можно ниже\n",
   "@unifiedPushExplainer": {
     "description": "Explains the need for unified push. Supports markdown",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyCreateExplanation": "Для возможности доступа к истории сообщений понадобится ключ безопасности. Вы можете указать собственный пароль, либо позволить приложению создать для вас ключ",
   "@labelMatrixRecoveryKeyCreateExplanation": {
     "description": "Explains what the matrix recovery key does, and that it can be generated or user input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "typingUsers": "{howMany,plural, =1{{user1} печатает...}=2{{user1} и {user2} печатают...}few{{user1}, {user2} и {user3} печатают...}other{Несколько пользователей печатают...}}",
   "@typingUsers": {
     "description": "Text to display which users are currently typing",
     "type": "text",
     "placeholders": {
-      "howMany": {},
-      "user1": {},
-      "user2": {},
-      "user3": {}
+      "howMany": { "type": "Object" },
+      "user1": { "type": "Object" },
+      "user2": { "type": "Object" },
+      "user3": { "type": "Object" }
     }
   },
   "promptCreateNewMatrixKeys": "Нет, нужны новые ключи",
   "@promptCreateNewMatrixKeys": {
     "description": "Button text to opt to create new keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelExistingMatrixKeysFound": "Найдены имеющиеся ключи подписи!",
   "@labelExistingMatrixKeysFound": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAskUseExistingMatrixKeys": "Использовать имеющиеся ключи?",
   "@labelAskUseExistingMatrixKeys": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys and asks the user if they would like to use those keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyExplanation": "Это ключ восстановления. Он может быть использован для подтверждения сеансов при утере доступа к остальным сеансам. Сохраните его в безопасном месте!",
   "@labelMatrixRecoveryKeyExplanation": {
     "description": "Gives a brief description about the function on the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyPromptExplanation": "Для получения доступа к старым сообщениям, введите ключ восстановления, созданный предыдущим сеансом. Ключ восстановления это НЕ пароль.",
   "@labelMatrixRecoveryKeyPromptExplanation": {
     "description": "Shown when a user is attempting to recover their old messages, explains that they need the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmWipingCrossSigningKeys": "Вы точно хотите уничтожить свои ключи кросс-подписи?",
   "@promptConfirmWipingCrossSigningKeys": {
     "description": "Asks the user if they are sure they want to wipe the keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainUpperAndLowercase": "Пароль должен содержать хотя бы по одной букве из нижнего и верхнего регистров",
   "@errorMatrixPassphraseMustContainUpperAndLowercase": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainNumber": "Пароль должен содержать хотя бы одну цифру",
   "@errorMatrixPassphraseMustContainNumber": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainSymbol": "Пароль должен содержать хотя бы 1 спец. символ",
   "@errorMatrixPassphraseMustContainSymbol": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "erroMatrixPassphraseMustBeLonger": "Пароль должен состоять из как минимум 10 символов",
   "@erroMatrixPassphraseMustBeLonger": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixSecurityPhraseShouldNotBePassword": "Пароль доступа к истории должен отличатся от пароля учётной записи",
   "@labelMatrixSecurityPhraseShouldNotBePassword": {
     "description": "Tells the user to not use their password as their security phrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphrasesDontMatch": "Введённые пароли не совпадают",
   "@errorMatrixPassphrasesDontMatch": {
     "description": "Error when the user enters passphrase twice and the two dont match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixConfirmSecurityPhrase": "Подтвердить пароль истории",
   "@placeholderMatrixConfirmSecurityPhrase": {
     "description": "Placeholder text for the confirm passphrase text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPromptPassphrase": "Пароль от истории:",
   "@labelMatrixPromptPassphrase": {
     "description": "Prompt the user to enter passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixEnterSecutiyPhrase": "Пароль от истории",
   "@placeholderMatrixEnterSecutiyPhrase": {
     "description": "Placeholder text for the passphrase text box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningExplanation": "Выполните настройку, чтобы подтверждать и вести учёт всех ваших сеансов",
   "@labelMatrixCrossSigningExplanation": {
     "description": "Explains what matrix cross signing does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackupExplanation": "Резервная копия ваших сообщений на случай утери доступа ко всем сеансам. Ваши сообщения будут зашифрованы перед добавлением в рез. копию",
   "@labelMatrixMessageBackupExplanation": {
     "description": "Explains what matrix message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEncryptedPreviewDescription": "Использовать прокси-сервер ({proxyUrl}) для предпросмотра ссылок в зашифрованных комнатах. Содержимое запросов будет скрыто от сервера Matrix с использованием «Шифрованного предпросмотра ссылок Commet»\nПодробности на английском: https://github.com/commetchat/encrypted_url_preview",
   "@labelEncryptedPreviewDescription": {
     "description": "Explains briefly how encrypted url preview works",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelSettingsDeveloperModeExplanation": "Показывать доп. информацию, полезную для разработчиков",
   "@labelSettingsDeveloperModeExplanation": {
     "description": "Explains what developer mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsStickerCompatibilityExplanation": "В некоторых приложениях Matrix стикеры, отправленные как «m.sticker», не будут загружаться. Эта настройка изменит отправляемые стикеры на «m.image» (картинка), благодаря чему они будут отображаться",
   "@labelSettingsStickerCompatibilityExplanation": {
     "description": "Explains what sticker compatibility mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewRoom": "Создать новую комнату",
   "@promptCreateNewRoom": {
     "description": "Prompt to create a new room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingRoom": "Присоединиться к комнате",
   "@promptJoinExistingRoom": {
     "description": "Prompt to join a room which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingRoom": "Добавить существующую комнату",
   "@promptUseExistingRoom": {
     "description": "Button text to choose to use an existing room when adding a room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageMatrixSessionVerificationRequest": "**{username}** запросил подтверждение вашего сеанса",
   "@messageMatrixSessionVerificationRequest": {
     "description": "Message to show when another user has requested to verify your matrix session. Supports markdown to emphasise the user name",
     "type": "text",
     "placeholders": {
-      "username": {}
+      "username": { "type": "Object" }
     }
   },
   "messageSasEmojiVerificationPrompt": "Убедитесь, что эмодзи одинаковы и отображаются в одном порядке на обоих устройствах",
   "@messageSasEmojiVerificationPrompt": {
     "description": "Explains what to look for when verifying using emoji. Needs to portray that the emoji MUST be the same AND in the same order",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmEmojiMatches": "Они совпадают!",
   "@promptConfirmEmojiMatches": {
     "description": "Button text to confirm that the emoji matches",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiDoNotMatch": "Они не совпадают",
   "@promptEmojiDoNotMatch": {
     "description": "Button text to confirm that the emoji do NOT match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageVerificationComplete": "Подтверждение успешно!",
   "@messageVerificationComplete": {
     "description": "Message to show when verification was completed successfully, and the session has been verified",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageWaitingOtherDeviceToAccept": "Ожидание подтверждения на другом устройстве",
   "@messageWaitingOtherDeviceToAccept": {
     "description": "Message to show while waiting for another device to accept a matrix session verification request",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReply": "Ответить",
   "@promptReply": {
     "description": "Generic prompt to reply to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddReaction": "Доб. реакцию",
   "@promptAddReaction": {
     "description": "Generic prompt to add reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEdit": "Изменить",
   "@promptEdit": {
     "description": "Generic prompt to edit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSettings": "Настройки",
   "@promptSettings": {
     "description": "Generic prompt for settings, usually will open a settings menu or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAccept": "Принять",
   "@promptAccept": {
     "description": "Generic prompt to accept something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReject": "Отклонить",
   "@promptReject": {
     "description": "Generic prompt to reject something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDelete": "Удалить",
   "@promptDelete": {
     "description": "Generic prompt to delete something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDownload": "Скачать",
   "@promptDownload": {
     "description": "Generic prompt to download something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoin": "Присоединиться",
   "@promptJoin": {
     "description": "Generic prompt to join a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmit": "Отправить",
   "@promptSubmit": {
     "description": "Generic prompt to submit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptContinue": "Продолжить",
   "@promptContinue": {
     "description": "Generic prompt to continue with some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirm": "Подтвердить",
   "@promptConfirm": {
     "description": "Generic prompt to confirm some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDone": "Завершить",
   "@promptDone": {
     "description": "Generic prompt to confirm that you are done",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReset": "Сбросить",
   "@promptReset": {
     "description": "Generic prompt to reset something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnable": "Включить",
   "@promptEnable": {
     "description": "Generic prompt to enable something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRestore": "Восстановить",
   "@promptRestore": {
     "description": "Generic prompt to restore something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPoliteNo": "Спасибо, нет",
   "@promptPoliteNo": {
     "description": "Generic message to decline something, using nice manners :)",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptBack": "Назад",
   "@promptBack": {
     "description": "Prompt text to go backwards, probably for navigation",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "notificationModifiersPrivacyEnhanced": "Новое сообщение",
   "@notificationModifiersPrivacyEnhanced": {
     "description": "Placeholder text to put in a notification when the user has privacy enhanced notifications enabled.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientOlmMissingMessage": "libolm не найдена или не установлена. Сквозное шифрование не будет работать без этой библиотеки",
   "@matrixClientOlmMissingMessage": {
     "description": "Text that explains to the user that libolm dependency is not found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientEncryptionWarningTitle": "Предупреждение о шифровании",
   "@matrixClientEncryptionWarningTitle": {
     "description": "Title of a warning about encryption",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptOptions": "Опции",
   "@promptOptions": {
     "description": "Generic prompt for options, generally would be used to open a settings menu, extra details or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRetryEventSend": "Повторить",
   "@promptRetryEventSend": {
     "description": "When a message failed to send, this prompts to retry sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCancelEventSend": "Отменить",
   "@promptCancelEventSend": {
     "description": "When a message failed to send, this prompts to cancel sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserUpdatedNameDetailed": "{user} измен. отображаемое имя на «{newName}»",
   "@messagePlaceholderUserUpdatedNameDetailed": {
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "newName": {}
+      "user": { "type": "Object" },
+      "newName": { "type": "Object" }
     }
   },
   "messageUserBanned": "{sender} заблок. {user}",
@@ -1564,8 +1564,8 @@
     "description": "Message body for when a user bans another user from the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserAcceptedInvite": "{user} прин. приглашение",
@@ -1573,7 +1573,7 @@
     "description": "Message body for when a user accepted an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserPinnedEvent": "{user} закреп. сообщение!",
@@ -1581,7 +1581,7 @@
     "description": "Message body for when a user adds an event to the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnpinnedEvent": "{user} откреп. сообщение",
@@ -1589,175 +1589,175 @@
     "description": "Message body for when a user removes an event from the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelUseRoomAvatars": "Изображения комнат",
   "@labelUseRoomAvatars": {
     "description": "Label for enabling using room avatars instead of icons",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableRoomIconsDescription": "Показывать изображения комнат вместо иконок",
   "@labelEnableRoomIconsDescription": {
     "description": "Description for the enable room icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholders": "Заглушки изображений комнат",
   "@labelUseRoomAvatarPlaceholders": {
     "description": "Label for enabling generic icons in the appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmoteName": "Название эмотикона",
   "@promptEmoteName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAlias": "#восхитительная-комната",
   "@placeholderRoomAlias": {
     "description": "Placeholder / Example for a room alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "noPinnedMessages": "Нет закреплённых сообщений!",
   "@noPinnedMessages": {
     "description": "Placeholder label in the pinned messages menu that is shown when there are no pinned messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSaveEmoticon": "Сохранить!",
   "@promptConfirmSaveEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageUserRetractedInvite": "{sender} отмен. приглашение {user}",
   "@messageUserRetractedInvite": {
     "description": "Message body for when a user's invitation to a room was withdrawn",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "placeholderSpaceAlias": "#изумительное-пространство",
   "@placeholderSpaceAlias": {
     "description": "Placeholder / Example for a space alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatTitle": "Предпросмотр ссылок в шифрованных комнатах",
   "@labelUrlPreviewInEncryptedChatTitle": {
     "description": "Label for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatDescription": "Запрашивать предпросмотр у вашего сервера Matrix даже для ссылок из зашифрованных комнат. Администраторы смогут их видеть",
   "@labelUrlPreviewInEncryptedChatDescription": {
     "description": "description for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewSettingsTitle": "Предпросмотр медиавложений",
   "@labelMediaPreviewSettingsTitle": {
     "description": "Header for the settings tile for for media preview toggles",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggle": "Частные комнаты",
   "@labelMediaPreviewPrivateRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggleDescription": "Показывать миниатюры изображений, видео, стикеров и ссылок в приватных комнатах",
   "@labelMediaPreviewPrivateRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for private rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggle": "Общедоступные комнаты",
   "@labelMediaPreviewPublicRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggleDescription": "Показывать миниатюры изображений, видео, стикеров и ссылок в общедоступных комнатах",
   "@labelMediaPreviewPublicRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for public rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholdersDescription": "Если у комнаты нет изображения, или если они выключены, показывать цветные заглушки с первой буквой названия",
   "@labelUseRoomAvatarPlaceholdersDescription": {
     "description": "Description for the enable generic icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "editEmoticonDialogTitle": "Изменить эмотикон",
   "@editEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to edit an existing emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPinMessage": "Закрепить сообщение",
   "@promptPinMessage": {
     "description": "Label for the menu option to pin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUnpinMessage": "Открепить сообщение",
   "@promptUnpinMessage": {
     "description": "Label for the menu option to unpin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplyInThread": "Ответить в ветви",
   "@promptReplyInThread": {
     "description": "Label for the menu option to reply to a message inside a thread",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSource": "Открыть исходник",
   "@promptShowSource": {
     "description": "Label for the menu option to view the JSON source of an event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplayMessageEffect": "Воспроизвести повторно",
   "@promptReplayMessageEffect": {
     "description": "If a message was sent with an effect, this prompts to replay the effect",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSticker": "Показать стикер",
   "@promptShowSticker": {
     "description": "Prompt to display a sticker, shown when media previews are disabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMessageEffectsTitle": "Эффекты",
   "@labelMessageEffectsTitle": {
     "description": "Header for the settings tile for message effects, such as confetti",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMessageEffectsDescription": "Отправка сообщений со спец. эффектами вроде конфетти 🎊",
   "@labelMessageEffectsDescription": {
     "description": "Label describing what message effects are",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageUserUnbanned": "{sender} разблок. {user}",
   "@messageUserUnbanned": {
     "description": "Message body for when a user reverts a ban of another user",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   }
 }

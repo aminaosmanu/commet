@@ -3,640 +3,640 @@
   "@labelCurrentAccountsHeader": {
     "description": "Label for header of accounts list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixKeys": "Скинути ключі",
   "@promptWipeMatrixKeys": {
     "description": "Text on the button to wipe matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAbortWipingMatrixKeys": "Зачекайте, ні!",
   "@promptAbortWipingMatrixKeys": {
     "description": "Text on the button which aborts wiping matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyCreateExplanation": "Нам потрібно встановити ключ безпеки, який можна використовувати для доступу до історії повідомлень. Ми можемо згенерувати ключ для вас, або ви можете вибрати власну фразу безпеки",
   "@labelMatrixRecoveryKeyCreateExplanation": {
     "description": "Explains what the matrix recovery key does, and that it can be generated or user input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptGenerateMatrixRecoveryKey": "Згенерувати ключ",
   "@promptGenerateMatrixRecoveryKey": {
     "description": "Button text to generate a recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingMatrixKeys": "Використати наявні ключі",
   "@promptUseExistingMatrixKeys": {
     "description": "Button text to opt to use existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewMatrixKeys": "Ні, створити нові ключі",
   "@promptCreateNewMatrixKeys": {
     "description": "Button text to opt to create new keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixBackup": "Скинути резервну копію",
   "@promptWipeMatrixBackup": {
     "description": "Button text to wipe the matrix message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableMatrixBackup": "Увімкнути резервне копіювання",
   "@promptEnableMatrixBackup": {
     "description": "Button text to enable to encrypted message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelExistingMatrixKeysFound": "Наявні ключі для підпису знайдено!",
   "@labelExistingMatrixKeysFound": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAskUseExistingMatrixKeys": "Бажаєте використовувати наявні ключі?",
   "@labelAskUseExistingMatrixKeys": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys and asks the user if they would like to use those keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyExplanation": "Це ваш ключ відновлення. Ви можете використовувати його, щоб підтвердити свою сесію, якщо втратите доступ до всіх інших сесій. Зберігайте його в надійному місці!",
   "@labelMatrixRecoveryKeyExplanation": {
     "description": "Gives a brief description about the function on the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyPromptExplanation": "Щоб розблокувати старі повідомлення, введіть ключ відновлення, згенерований у попередньому сеансі. Ваш ключ відновлення НЕ є вашим паролем.",
   "@labelMatrixRecoveryKeyPromptExplanation": {
     "description": "Shown when a user is attempting to recover their old messages, explains that they need the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmWipingCrossSigningKeys": "Ви впевнені, що хочете стерти ключі для перехресного підпису?",
   "@promptConfirmWipingCrossSigningKeys": {
     "description": "Asks the user if they are sure they want to wipe the keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixSecurityPhraseShouldNotBePassword": "Ваша захисна фраза повинна відрізнятися від пароля облікового запису",
   "@labelMatrixSecurityPhraseShouldNotBePassword": {
     "description": "Tells the user to not use their password as their security phrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainUpperAndLowercase": "Пароль повинен містити принаймні 1 велику та 1 малу літеру",
   "@errorMatrixPassphraseMustContainUpperAndLowercase": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainSymbol": "Пароль повинен містити принаймні 1 символ",
   "@errorMatrixPassphraseMustContainSymbol": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "erroMatrixPassphraseMustBeLonger": "Пароль повинен мати довжину не менше 10 символів",
   "@erroMatrixPassphraseMustBeLonger": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixConfirmSecurityPhrase": "Підтвердіть фразу безпеки:",
   "@labelMatrixConfirmSecurityPhrase": {
     "description": "Prompts the user to input their passphrase again",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphrasesDontMatch": "Паролі не збігаються",
   "@errorMatrixPassphrasesDontMatch": {
     "description": "Error when the user enters passphrase twice and the two dont match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPromptPassphrase": "Фраза безпеки:",
   "@labelMatrixPromptPassphrase": {
     "description": "Prompt the user to enter passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixEnterSecutiyPhrase": "Фраза безпеки",
   "@placeholderMatrixEnterSecutiyPhrase": {
     "description": "Placeholder text for the passphrase text box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExistingMessageBackupFound": "Знайдено існуючу резервну копію!",
   "@labelMatrixExistingMessageBackupFound": {
     "description": "Message to explain that existing backup has been found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskWipeBackupToContinue": "Якщо ви змінюєте ключі перехресного підпису, вам потрібно буде стерти наявну резервну копію... Продовжувати?",
   "@labelMatrixAskWipeBackupToContinue": {
     "description": "Asks the user if they want to wipe their existing backup to continue changing their cross signing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixWarnResetKeysIsPermanent": "Скидання ваших ключів є безповоротним і призведе до втрати резервної копії історії чату. Ви майже напевно не хочете цього робити!",
   "@labelMatrixWarnResetKeysIsPermanent": {
     "description": "Explains that resetting keys is permanent, should emphasize that this isnt really a great idea",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskEnableMessageBackup": "Бажаєте увімкнути резервне копіювання ключів онлайн?",
   "@labelMatrixAskEnableMessageBackup": {
     "description": "Asks the user if they want to enable online backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExplainOnlineKeyBackup": "Резервне копіювання ключів онлайн дозволить вам відновити історію повідомлень, якщо ви втратите доступ до всіх своїх сесій",
   "@labelMatrixExplainOnlineKeyBackup": {
     "description": "Explains what the message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigning": "Перехресний підпис",
   "@labelMatrixCrossSigning": {
     "description": "Title label for matrix cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningAndBackup": "Перехресне підписання та резервне копіювання",
   "@labelMatrixCrossSigningAndBackup": {
     "description": "Header label for matrix cross signing and message backup section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAccountSessions": "Сесії",
   "@labelMatrixAccountSessions": {
     "description": "Title label for account sessions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixResetCrossSigningTitle": "Скинути перехресний підпис",
   "@labelMatrixResetCrossSigningTitle": {
     "description": "Title for the popup dialog when resetting cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackup": "Резервне копіювання повідомлень",
   "@labelMatrixMessageBackup": {
     "description": "TItle label for matrix message backup settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackupExplanation": "Зберігає резервну копію історії ваших повідомлень на випадок, якщо ви втратите всі сесії. Ваші повідомлення будуть зашифровані перед завантаженням",
   "@labelMatrixMessageBackupExplanation": {
     "description": "Explains what matrix message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRestoreMatrixBackupTitle": "Відновити резервну копію",
   "@labelRestoreMatrixBackupTitle": {
     "description": "Title of the popup dialog for restoring message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppGeneral": "Загальне",
   "@labelSettingsAppGeneral": {
     "description": "Label for the App General settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAppearance": "Зовнішній вигляд",
   "@labelSettingsAppAppearance": {
     "description": "Label for the App Appearance settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviour": "Поведінка вікна",
   "@labelSettingsWindowBehaviour": {
     "description": "Label for the Window Behaviour settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppDeveloperUtils": "Утиліти розробника",
   "@labelSettingsAppDeveloperUtils": {
     "description": "Label for the developer utils settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeDark": "Темна тема",
   "@labelThemeDark": {
     "description": "Label for the dark theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppTheme": "Тема",
   "@labelSettingsAppTheme": {
     "description": "Label for theme section of app appearance",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchToggle": "Пошук Gif",
   "@labelGifSearchToggle": {
     "description": "Label for the toggle for enabling and disabling gif search",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchDescription": "Увімкнути використання пошуку за допомогою Tenor gif. Запити будуть передаватися через {proxyUrl}",
   "@labelGifSearchDescription": {
     "description": "Explains that gifs will be fetched via proxy",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelSettingsDeveloperModeExplanation": "Показує додаткову інформацію, корисну для розробників",
   "@labelSettingsDeveloperModeExplanation": {
     "description": "Explains what developer mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsDeveloperMode": "Режим розробника",
   "@labelSettingsDeveloperMode": {
     "description": "Header for the settings to enable developer mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviourTitle": "Поведінка вікна",
   "@labelSettingsWindowBehaviourTitle": {
     "description": "Header for the window behaviour section of settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseToggle": "Згортати при закритті",
   "@labelSettingsMinimizeOnCloseToggle": {
     "description": "Label for the toggle to turn on and off minimize on close",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseExplanation": "При закритті вікна застосунок буде згорнуто, а не закрито",
   "@labelSettingsMinimizeOnCloseExplanation": {
     "description": "Explains what the 'minimize on close' setting does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "notificationSettingsNotSupported": "Push-сповіщення не підтримуються в цій системі",
   "@notificationSettingsNotSupported": {
     "description": "Message to display when push notifications are not supported",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoom": "Вийти з кімнати",
   "@promptLeaveRoom": {
     "description": "Text on a button to leave a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveSpace": "Покинути простір",
   "@promptLeaveSpace": {
     "description": "Text on a button to leave a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveSpaceConfirmation": "Ви справді хочете покинути {spaceName}?",
   "@promptLeaveSpaceConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave a space",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "messageLoginFailed": "Не вдалося увійти...",
   "@messageLoginFailed": {
     "description": "Generic text to show that an attempted login has failed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageLoginError": "Виникла помилка",
   "@messageLoginError": {
     "description": "A generic error message to convey that an error occured when attempting to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageAlreadyLoggedIn": "Ви вже увійшли в цей обліковий запис",
   "@messageAlreadyLoggedIn": {
     "description": "An error message displayed when the user attempts to add an account which has already been logged in to on this device",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHomeserver": "Домашній сервер",
   "@promptHomeserver": {
     "description": "Placeholder text for homeserver field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUsername": "Імʼя користувача",
   "@promptUsername": {
     "description": "Placeholder text for username field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPassword": "Пароль",
   "@promptPassword": {
     "description": "Placeholder text for password field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmitLogin": "Увійти",
   "@promptSubmitLogin": {
     "description": "Prompt to submit the username and password, and attempt to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceName": "Назва простору",
   "@promptSpaceName": {
     "description": "Prompt to enter a space name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomName": "Назва кімнати",
   "@promptRoomName": {
     "description": "Prompt to enter a room name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPrivateExplanation": "Доступ до цієї кімнати можливий лише за запрошеннями",
   "@roomVisibilityPrivateExplanation": {
     "description": "Explains what 'private' room visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPublicExplanation": "Ця кімната буде загальнодоступною для будь-кого в Інтернеті",
   "@roomVisibilityPublicExplanation": {
     "description": "Explains what 'public' visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPublicExplanation": "Ця кімната буде загальнодоступною для будь-кого в Інтернеті",
   "@spaceVisibilityPublicExplanation": {
     "description": "Explains what 'public' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPrivate": "Приватне",
   "@labelVisibilityPrivate": {
     "description": "Short label for room visibility private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPublic": "Публічне",
   "@labelVisibilityPublic": {
     "description": "Short label for room visibility public",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryption": "Увімкнути шифрування",
   "@promptEnableEncryption": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanation": "Якщо увімкнете, потім вже вимкнути буде неможливо",
   "@encryptionCannotBeDisabledExplanation": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomJoin": "Доєднатися до кімнати!",
   "@promptConfirmRoomJoin": {
     "description": "Label for a button which confirms the joining of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceJoin": "Доєднатися до простору!",
   "@promptConfirmSpaceJoin": {
     "description": "Label for a button which confirms the joining of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceAddress": "Адреса простору:",
   "@promptSpaceAddress": {
     "description": "Short label to prompt for the input of a space address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderSpaceAddress": "#awesome-space:example.com",
   "@placeholderSpaceAddress": {
     "description": "Placeholder / Example for a space address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelCouldNotLoadRoomPreview": "Не вдалося завантажити попередній перегляд кімнати",
   "@labelCouldNotLoadRoomPreview": {
     "description": "Error message for when a room preview was not able to be loaded",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewSpace": "Створити новий простір",
   "@promptCreateNewSpace": {
     "description": "Prompt to create a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingSpace": "Приєднайтеся до існуючого простору",
   "@promptJoinExistingSpace": {
     "description": "Prompt to join a space which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewRoom": "Створити нову кімнату",
   "@promptCreateNewRoom": {
     "description": "Prompt to create a new room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingRoom": "Приєднатися до існуючої кімнати",
   "@promptJoinExistingRoom": {
     "description": "Prompt to join a room which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageWaitingOtherDeviceToAccept": "Чекаємо, поки інший пристрій прийме запит",
   "@messageWaitingOtherDeviceToAccept": {
     "description": "Message to show while waiting for another device to accept a matrix session verification request",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageMatrixSessionVerificationRequest": "**{username}** запросив перевірку вашої сесії",
   "@messageMatrixSessionVerificationRequest": {
     "description": "Message to show when another user has requested to verify your matrix session. Supports markdown to emphasise the user name",
     "type": "text",
     "placeholders": {
-      "username": {}
+      "username": { "type": "Object" }
     }
   },
   "messageSasEmojiVerificationPrompt": "Переконайтеся, що емоджі такі ж самі й в тому ж порядку, що й на іншому пристрої",
   "@messageSasEmojiVerificationPrompt": {
     "description": "Explains what to look for when verifying using emoji. Needs to portray that the emoji MUST be the same AND in the same order",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmEmojiMatches": "Вони збігаються!",
   "@promptConfirmEmojiMatches": {
     "description": "Button text to confirm that the emoji matches",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiDoNotMatch": "Вони не збігаються",
   "@promptEmojiDoNotMatch": {
     "description": "Button text to confirm that the emoji do NOT match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "notificationModifiersPrivacyEnhanced": "Надіслати повідомлення",
   "@notificationModifiersPrivacyEnhanced": {
     "description": "Placeholder text to put in a notification when the user has privacy enhanced notifications enabled.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientOlmMissingMessage": "libolm не встановлено або не знайдено. Наскрізне шифрування буде недоступне, доки цю проблему не буде вирішено",
   "@matrixClientOlmMissingMessage": {
     "description": "Text that explains to the user that libolm dependency is not found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientEncryptionWarningTitle": "Попередження про шифрування",
   "@matrixClientEncryptionWarningTitle": {
     "description": "Title of a warning about encryption",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReply": "Відповісти",
   "@promptReply": {
     "description": "Generic prompt to reply to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddReaction": "Додати реакцію",
   "@promptAddReaction": {
     "description": "Generic prompt to add reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptOptions": "Параметри",
   "@promptOptions": {
     "description": "Generic prompt for options, generally would be used to open a settings menu, extra details or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetupMatrixMessageBackup": "Налаштувати резервне копіювання",
   "@promptSetupMatrixMessageBackup": {
     "description": "Text on the button to begin the setup process for message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSettings": "Налаштування",
   "@promptSettings": {
     "description": "Generic prompt for settings, usually will open a settings menu or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHome": "Головна",
   "@promptHome": {
     "description": "Generic prompt to go home, usually will go back to a main menu, or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReject": "Відмовити",
   "@promptReject": {
     "description": "Generic prompt to reject something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptApply": "Застосувати",
   "@promptApply": {
     "description": "Generic prompt to apply something, probably a setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDelete": "Видалити",
   "@promptDelete": {
     "description": "Generic prompt to delete something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoin": "Доєднатися",
   "@promptJoin": {
     "description": "Generic prompt to join a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptContinue": "Продовжити",
   "@promptContinue": {
     "description": "Generic prompt to continue with some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirm": "Підтвердити",
   "@promptConfirm": {
     "description": "Generic prompt to confirm some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDone": "Зроблено",
   "@promptDone": {
     "description": "Generic prompt to confirm that you are done",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReset": "Скинути",
   "@promptReset": {
     "description": "Generic prompt to reset something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnable": "Увімкнути",
   "@promptEnable": {
     "description": "Generic prompt to enable something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPoliteNo": "Ні, дякую",
   "@promptPoliteNo": {
     "description": "Generic message to decline something, using nice manners :)",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptBack": "Повернутись",
   "@promptBack": {
     "description": "Prompt text to go backwards, probably for navigation",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopy": "Скопіювати",
   "@promptCopy": {
     "description": "Prompt to copy text",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderSticker": "{user} відправив наліпку",
   "@messagePlaceholderSticker": {
     "description": "Message body for when a user sends a sticker",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageFailedToDecrypt": "Не вдалося розшифрувати подію",
   "@messageFailedToDecrypt": {
     "description": "Placeholde text for when a message fails to decrypt",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserJoinedRoom": "{user} приєднався до кімнати!",
   "@messagePlaceholderUserJoinedRoom": {
     "description": "Message body for when a user joins the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserLeftRoom": "{user} вийшов з кімнати",
@@ -644,7 +644,7 @@
     "description": "Message body for when a user leaves the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserInvited": "{sender} запросив {invitedUser}",
@@ -652,8 +652,8 @@
     "description": "Message body for when a user invites another user to the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "invitedUser": {}
+      "sender": { "type": "Object" },
+      "invitedUser": { "type": "Object" }
     }
   },
   "messagePlaceholderUserRejectedInvite": "{user} відхилив запрошення",
@@ -661,293 +661,293 @@
     "description": "Message body for when a user rejected an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelEmojiPickerGifTab": "Gif",
   "@labelEmojiPickerGifTab": {
     "description": "Label for the gif search tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "sendEncryptedMessagePrompt": "Надіслати зашифроване повідомлення",
   "@sendEncryptedMessagePrompt": {
     "description": "Placeholder text for message input in an encrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRecentActivity": "Остання активність",
   "@labelHomeRecentActivity": {
     "description": "Short label for header of recent room activity",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSpace": "Додати простір",
   "@promptAddSpace": {
     "description": "Prompt to add a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipAddRoom": "Додати кімнату",
   "@tooltipAddRoom": {
     "description": "Tooltip for the button that adds a new room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "directMessagesListHeaderMobile": "Прямі повідомлення",
   "@directMessagesListHeaderMobile": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "setupPageBeforeYouBegin": "Перш ніж ви почнете...",
   "@setupPageBeforeYouBegin": {
     "description": "Title for first time setup page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSettingsGeneral": "Загальне",
   "@labelSpaceSettingsGeneral": {
     "description": "Label for general space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleMentionsAndKeywords": "Згадки та ключові слова",
   "@labelPushRuleMentionsAndKeywords": {
     "description": "Label for the push rule which notifies only for keywords and mentions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNone": "Вимкнути звук",
   "@labelPushRuleNone": {
     "description": "Label for the push rule which sends no notifications",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryptionRoomSettings": "Увімкнути шифрування",
   "@promptEnableEncryptionRoomSettings": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRenameEmoticon": "Перейменувати смайлик",
   "@promptRenameEmoticon": {
     "description": "Tooltip for button to rename emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiName": "Назва емоджі",
   "@promptEmojiName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsAppearance": "Зовнішній вигляд",
   "@labelRoomSettingsAppearance": {
     "description": "Label for room appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabDeveloper": "Розробник",
   "@labelSettingsTabDeveloper": {
     "description": "Label for the Developer settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryAccount": "Обліковий запис",
   "@labelSettingsCategoryAccount": {
     "description": "Label for the settings category Account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetMatrixPassphrase": "Встановити фразу",
   "@promptSetMatrixPassphrase": {
     "description": "Button text to set a passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptMatrixRecoveryKeyInput": "Ключ відновлення",
   "@promptMatrixRecoveryKeyInput": {
     "description": "Placeholder text for the recovery key input box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainNumber": "Пароль повинен містити принаймні 1 цифру",
   "@errorMatrixPassphraseMustContainNumber": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixConfirmSecurityPhrase": "Підтвердіть фразу безпеки",
   "@placeholderMatrixConfirmSecurityPhrase": {
     "description": "Placeholder text for the confirm passphrase text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningExplanation": "Налаштування для перевірки та відстеження всіх ваших сесій",
   "@labelMatrixCrossSigningExplanation": {
     "description": "Explains what matrix cross signing does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptMatrixVerifySession": "Підтвердити",
   "@promptMatrixVerifySession": {
     "description": "Text on the button to verify a session",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAdvanced": "Додаткове",
   "@labelSettingsAppAdvanced": {
     "description": "Label for the App Advanced settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppNotifications": "Сповіщення",
   "@labelSettingsAppNotifications": {
     "description": "Label for the App notifications settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeLight": "Світла тема",
   "@labelThemeLight": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAppScale": "Масштаб застосунку",
   "@labelAppScale": {
     "description": "Label for the setting which controls the UI scale of the overall app",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryApp": "Налаштування застосунку",
   "@labelSettingsCategoryApp": {
     "description": "Label for the settings category of the overall App settings/",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThirdPartyServicesTitle": "Сторонні послуги",
   "@labelThirdPartyServicesTitle": {
     "description": "Header for the third party services section in settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoomConfirmation": "Ви справді хочете вийти з {roomName}?",
   "@promptLeaveRoomConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave",
     "type": "text",
     "placeholders": {
-      "roomName": {}
+      "roomName": { "type": "Object" }
     }
   },
   "promptTopic": "Тема (за бажанням)",
   "@promptTopic": {
     "description": "Prompt to enter a topic for room or space, specifying that doing so is optional",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPrivateExplanation": "Доступ до цієї кімнати можливий лише за запрошеннями",
   "@spaceVisibilityPrivateExplanation": {
     "description": "Explains what 'private' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomCreation": "Створити кімнату!",
   "@promptConfirmRoomCreation": {
     "description": "Label for a button which confirms the creation of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceCreation": "Створити простір!",
   "@promptConfirmSpaceCreation": {
     "description": "Label for a button which confirms the creation of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomAddress": "Адреса кімнати:",
   "@promptRoomAddress": {
     "description": "Short label to prompt for the input of a room address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAddress": "#awesome-room:example.com",
   "@placeholderRoomAddress": {
     "description": "Placeholder / Example for a room address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSelectedRooms": "Додати вибрані кімнати",
   "@promptAddSelectedRooms": {
     "description": "Prompt to add the selected rooms to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingRoom": "Використати наявну кімнату",
   "@promptUseExistingRoom": {
     "description": "Button text to choose to use an existing room when adding a room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageVerificationComplete": "Перевірку завершено!",
   "@messageVerificationComplete": {
     "description": "Message to show when verification was completed successfully, and the session has been verified",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEdit": "Редагувати",
   "@promptEdit": {
     "description": "Generic prompt to edit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAccept": "Прийняти",
   "@promptAccept": {
     "description": "Generic prompt to accept something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmit": "Відправити",
   "@promptSubmit": {
     "description": "Generic prompt to submit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRestore": "Відновити",
   "@promptRestore": {
     "description": "Generic prompt to restore something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopyComplete": "Скопійовано!",
   "@promptCopyComplete": {
     "description": "Prompt text for after a copy has been completed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelOr": "Або",
   "@labelOr": {
     "description": "Text that is placed between two or more options: [button1] or [button2]",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "fileDragDropPrompt": "Перетягніть файл, щоб вивантажити...",
   "@fileDragDropPrompt": {
     "description": "Text that is shown when a user is dragging a file",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomsList": "Кімнати",
   "@labelRoomsList": {
     "description": "Header label for the list of rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserCreatedRoom": "{user} створив кімнату!",
   "@messagePlaceholderUserCreatedRoom": {
     "description": "Message body for when a user created the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedAvatar": "{user} оновив свій аватар",
@@ -955,7 +955,7 @@
     "description": "Message body for when a user updates their avatar",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedName": "{user} оновив своє відображене імʼя",
@@ -963,386 +963,386 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "errorMessageFailedToSend": "Не вдалося надіслати",
   "@errorMessageFailedToSend": {
     "description": "Text that is placed below a message when the message fails to send",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeInvitationBody": "Запросив вас до кімнати",
   "@labelHomeInvitationBody": {
     "description": "Displays a short description explaining that an invitation to a room was received. Does not need to contain the name of the room or inviter",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelJumpToLatest": "Перейти до останніх",
   "@labelJumpToLatest": {
     "description": "Label for the button which jumps the room timeline view to the latest message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerEmojiTab": "Емоджі",
   "@labelEmojiPickerEmojiTab": {
     "description": "Label for the emoji tab in emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageEditedMarker": "(Відредаговано)",
   "@messageEditedMarker": {
     "description": "Short text to mark that a message has been edited",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerStickerTab": "Наліпка",
   "@labelEmojiPickerStickerTab": {
     "description": "Label for the sticker tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "sendUnencryptedMessagePrompt": "Надіслати повідомлення",
   "@sendUnencryptedMessagePrompt": {
     "description": "Placeholder text for message input in an unencrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "typingUsers": "{howMany,plural, =1{{user1} пише...}=2{{user1} та {user2} пишуть...}few{{user1}, {user2}, та {user3} пишуть...}other{Декілька людей пишуть...}}",
   "@typingUsers": {
     "description": "Text to display which users are currently typing",
     "type": "text",
     "placeholders": {
-      "howMany": {},
-      "user1": {},
-      "user2": {},
-      "user3": {}
+      "howMany": { "type": "Object" },
+      "user1": { "type": "Object" },
+      "user2": { "type": "Object" },
+      "user3": { "type": "Object" }
     }
   },
   "cantSentMessagePrompt": "У вас недостатньо прав, щоб надіслати повідомлення у цю кімнату",
   "@cantSentMessagePrompt": {
     "description": "Text that explains the user cannot send a message in this room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLarge": "Цей файл завеликий для вивантаження!",
   "@labelChatPageFileTooLarge": {
     "description": "Text that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeInvitations": "Запрошення",
   "@labelHomeInvitations": {
     "description": "Short label for header of invitations list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipSpaceSettings": "Налаштування простору",
   "@tooltipSpaceSettings": {
     "description": "Tooltip for the button that opens space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLargeTitle": "Перевищено максимальний розмір файлу",
   "@labelChatPageFileTooLargeTitle": {
     "description": "Title for the dialog that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeAlerts": "Оповіщення",
   "@labelHomeAlerts": {
     "description": "Short label for header of alerts",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRoomsList": "Кімнати",
   "@labelHomeRoomsList": {
     "description": "Short label for header of rooms list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceRoomsList": "Кімнати",
   "@labelSpaceRoomsList": {
     "description": "Header label for the list of rooms in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAvailableRoomsList": "Доступні кімнати",
   "@labelSpaceAvailableRoomsList": {
     "description": "Header label for the list of rooms in a space, which the user has not yet joined but are available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPublic": "Публічні простори",
   "@labelSpaceVisibilityPublic": {
     "description": "Label to display that the space is publically available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptOpenDirectMessage": "Повідомлення",
   "@promptOpenDirectMessage": {
     "description": "Prompt on the button to open a direct message with another user",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPrivate": "Приватні простори",
   "@labelSpaceVisibilityPrivate": {
     "description": "Label to display that the space is private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceGettingText": "Вітаємо в \n\n # {spaceName}",
   "@labelSpaceGettingText": {
     "description": "Greeting to the space, supports markdown formatting",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "directMessagesListHeaderDesktop": "Прямі повідомлення",
   "@directMessagesListHeaderDesktop": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "unifiedPushExplainer": "# Unified Push\nЦя версія Commet зібрана без Google Play Services. Щоб отримувати push-сповіщення, вам необхідно використовувати [Unified Push](https://unifiedpush.org/). \n\nЯкщо ви вже маєте Unified Push застосунок, ви можете його налаштувати тут\n",
   "@unifiedPushExplainer": {
     "description": "Explains the need for unified push. Supports markdown",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPush": "Увімкнути Unified Push",
   "@labelEnableUnifiedPush": {
     "description": "Label for the toggle to enable Unified Push",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPushEndpoint": "Кінцева точка",
   "@labelEnableUnifiedPushEndpoint": {
     "description": "Label for the Unified Push endpoint",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUnifiedPushNoEndpointFound": "Кінцева точка не знайдена, щось пішло не так :(",
   "@labelUnifiedPushNoEndpointFound": {
     "description": "Message for when a unified push endpoint could not be registered",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAppearanceSettings": "Зовнішній вигляд",
   "@labelSpaceAppearanceSettings": {
     "description": "Label for space appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceEmoticonSettings": "Смайлики",
   "@labelSpaceEmoticonSettings": {
     "description": "Label for space emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceDeveloperSettings": "Розробник",
   "@labelSpaceDeveloperSettings": {
     "description": "Label for space developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategorySpace": "Налаштування простору",
   "@labelSettingsCategorySpace": {
     "description": "Label for the overall space settings category",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppLogs": "Логи",
   "@labelSettingsAppLogs": {
     "description": "Label for the logs settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNotifyAll": "Всі повідомлення",
   "@labelPushRuleNotifyAll": {
     "description": "Label for the push rule which notifies for all received messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsNotifications": "Сповіщення",
   "@labelRoomSettingsNotifications": {
     "description": "Label for the notifications section in room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanationRoomSettings": "Якщо увімкнете, потім вже вимкнути буде неможливо",
   "@encryptionCannotBeDisabledExplanationRoomSettings": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateEmoticonPack": "Створити пакунок",
   "@promptCreateEmoticonPack": {
     "description": "Prompt to create a new emoticon pack, for emoji or stickers",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmDeleteEmoticonPack": "Ви справді хочете видалити пакунок **{packName}**?",
   "@promptConfirmDeleteEmoticonPack": {
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the pack name",
     "type": "text",
     "placeholders": {
-      "packName": {}
+      "packName": { "type": "Object" }
     }
   },
   "createEmoticonDialogTitle": "Створити смайлик",
   "@createEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to create a new emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmDeleteEmoticon": "Ви справді хочете видалити **{emoticon}**?",
   "@promptConfirmDeleteEmoticon": {
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the emote name",
     "type": "text",
     "placeholders": {
-      "emoticon": {}
+      "emoticon": { "type": "Object" }
     }
   },
   "promptEmoticonPackName": "Назва пакунку",
   "@promptEmoticonPackName": {
     "description": "Prompt for the input of the name of an emoticon pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptStickerName": "Назва наліпки",
   "@promptStickerName": {
     "description": "Prompt for the input of a sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmCreateEmoticon": "Створити!",
   "@promptConfirmCreateEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsGeneral": "Загальне",
   "@labelRoomSettingsGeneral": {
     "description": "Label for general room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsSecurity": "Безпека",
   "@labelRoomSettingsSecurity": {
     "description": "Label for room security settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsEmoticons": "Смайлики",
   "@labelRoomSettingsEmoticons": {
     "description": "Label for room Emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsDeveloper": "Розробник",
   "@labelRoomSettingsDeveloper": {
     "description": "Label for room developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsCategory": "Налаштування кімнати",
   "@labelRoomSettingsCategory": {
     "description": "Label for the overall settings category of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabManageAccounts": "Керування обліковими записами",
   "@labelSettingsTabManageAccounts": {
     "description": "Label for the Manage Accounts settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabProfile": "Профіль",
   "@labelSettingsTabProfile": {
     "description": "Label for the Profile settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabSecurity": "Безпека",
   "@labelSettingsTabSecurity": {
     "description": "Label for the Security settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabEmoticons": "Смайлики",
   "@labelSettingsTabEmoticons": {
     "description": "Label for the Emoticons settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddAccount": "Додати обліковий запис",
   "@promptAddAccount": {
     "description": "Label for button in settings to add another account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLogoutSingleAccount": "Вийти",
   "@promptLogoutSingleAccount": {
     "description": "Label for button in settings to log out of an account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleAdmin": "Адміністратор",
   "@labelMatrixPermissionsRoleAdmin": {
     "description": "Label for the room administrator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleModerator": "Модератор",
   "@labelMatrixPermissionsRoleModerator": {
     "description": "Label for the room moderator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleMember": "Учасник кімнати",
   "@labelMatrixPermissionsRoleMember": {
     "description": "Label for the room member role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenDescription": "Дозволяє користувачеві керувати тим, які кімнати є частиною цього простору",
   "@labelMatrixPermissionsSpaceManageChildrenDescription": {
     "description": "Describes the permission to manage child rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenTitle": "Керування дочірніми кімнатами",
   "@labelMatrixPermissionsSpaceManageChildrenTitle": {
     "description": "Title for permission to manage children",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesTitle": "Надсилати повідомлення",
   "@labelMatrixPermissionsRoomSendMessagesTitle": {
     "description": "Title for the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesDescription": "Дозволяє користувачеві надсилати повідомлення в цій кімнаті",
   "@labelMatrixPermissionsRoomSendMessagesDescription": {
     "description": "Describes the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityTitle": "Видимість історії",
   "@labelMatrixPermissionsRoomHistoryVisibilityTitle": {
     "description": "Title for the permission to add change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelInvitationBodyWithSender": "{user} запросив вас до кімнати",
   "@labelInvitationBodyWithSender": {
     "description": "Message body for when an invitation was received, and we have a name for the sender",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelInvitationsForUser": "Запрошення для {user}",
@@ -1350,255 +1350,255 @@
     "description": "Label for the list of incoming invitations, specifying which user these invitations are intended for",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelInvitations": "Запрошення",
   "@labelInvitations": {
     "description": "Label for the list of incoming invitations",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpacePermissionSettings": "Дозволи",
   "@labelSpacePermissionSettings": {
     "description": "Label for space permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptImportPack": "Імпортувати пакет",
   "@promptImportPack": {
     "description": "Prompt to import a set of emoticons from an existing pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesDescription": "Дозволяє користувачеві видаляти повідомлення, надіслані іншими",
   "@labelMatrixPermissionsRoomDeleteMessagesDescription": {
     "description": "Describes the permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsTitle": "Додати реакції",
   "@labelMatrixPermissionsRoomAddReactionsTitle": {
     "description": "Title for the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsDescription": "Додати реакції до повідомлення",
   "@labelMatrixPermissionsRoomAddReactionsDescription": {
     "description": "describes the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicTitle": "Змінити тематику кімнати",
   "@labelMatrixPermissionsChangeRoomTopicTitle": {
     "description": "Title for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserTitle": "Вигнати користувачів",
   "@labelMatrixPermissionsKickUserTitle": {
     "description": "Title for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserTitle": "Забанити користувачів",
   "@labelMatrixPermissionsBanUserTitle": {
     "description": "Title for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserDescription": "Заборонити іншим користувачам доступ до кімнати",
   "@labelMatrixPermissionsBanUserDescription": {
     "description": "Description for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDownload": "Завантажити",
   "@promptDownload": {
     "description": "Generic prompt to download something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEncryptedPreviewDescription": "Увімкнути використання проксі-сервера ({proxyUrl}) для отримання передперегляду адрес у зашифрованому чаті. Вміст цих запитів буде приховано від вашого домашнього сервера за допомогою функції Commet «передперегляд зашифрованих адрес»\nДізнатися більше: https://github.com/commetchat/encrypted_url_preview",
   "@labelEncryptedPreviewDescription": {
     "description": "Explains briefly how encrypted url preview works",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelMessageEffectsTitle": "Ефекти повідомлень",
   "@labelMessageEffectsTitle": {
     "description": "Header for the settings tile for message effects, such as confetti",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMessageEffectsDescription": "Повідомлення можна надсилати з додатковими ефектами, наприклад, конфетті",
   "@labelMessageEffectsDescription": {
     "description": "Label describing what message effects are",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsStickerCompatibilityExplanation": "У деяких клієнтах Matrix надсилання наклейки як «m.sticker» призведе до її некоректного завантаження. Якщо увімкнути цей параметр, наклейки надсилатимуться як «m.image», що забезпечить їхнє коректне відображення",
   "@labelSettingsStickerCompatibilityExplanation": {
     "description": "Explains what sticker compatibility mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicDescription": "Дозволяє користувачеві змінити тематику цієї кімнати",
   "@labelMatrixPermissionsChangeRoomTopicDescription": {
     "description": "Description for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsDescription": "Дозволяє користувачеві змінювати налаштування дозволів",
   "@labelMatrixPermissionsChangeRoomPermissionsDescription": {
     "description": "Description for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSource": "Показати джерело",
   "@promptShowSource": {
     "description": "Label for the menu option to view the JSON source of an event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageUserUnbanned": "{sender} розбанив {user}",
   "@messageUserUnbanned": {
     "description": "Message body for when a user reverts a ban of another user",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "noPinnedMessages": "Немає прикріплених повідомлень!",
   "@noPinnedMessages": {
     "description": "Placeholder label in the pinned messages menu that is shown when there are no pinned messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSubspacesList": "Простори",
   "@labelSpaceSubspacesList": {
     "description": "Header label for the list of child spaces in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAttachmentProcessingSendOriginal": "Надіслати оригінал",
   "@promptAttachmentProcessingSendOriginal": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelImageContainsLocationInfo": "Попередження: це зображення містить метадані про розташування",
   "@labelImageContainsLocationInfo": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelStickerCompatibility": "Сумісність наліпок",
   "@labelStickerCompatibility": {
     "description": "Header for the settings to enable sticker compatibility mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEncryptedPreview": "Передперегляд URL-адрес у зашифрованих чатах (експериментально)",
   "@labelEncryptedPreview": {
     "description": "Label for the toggle for enabling and disabling encrypted url preview",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesTitle": "Видалити повідомлення",
   "@labelMatrixPermissionsRoomDeleteMessagesTitle": {
     "description": "Title for permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityDescription": "Дозволяє користувачеві змінювати видимість історії чату в цій кімнаті",
   "@labelMatrixPermissionsRoomHistoryVisibilityDescription": {
     "description": "describes the permission to change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarTitle": "Встановити зображення кімнати",
   "@labelMatrixPermissionsRoomAvatarTitle": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarDescription": "Змінити зображення кімнати",
   "@labelMatrixPermissionsRoomAvatarDescription": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeAmoled": "Чорна тема",
   "@labelThemeAmoled": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameTitle": "Змінити назву кімнати",
   "@labelMatrixPermissionsChangeRoomNameTitle": {
     "description": "Title for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameDescription": "Дозволяє користувачеві змінити назву цієї кімнати",
   "@labelMatrixPermissionsChangeRoomNameDescription": {
     "description": "Description for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsTitle": "Змінити дозволи",
   "@labelMatrixPermissionsChangeRoomPermissionsTitle": {
     "description": "Title for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserDescription": "Вигнати інших користувачів з кімнати",
   "@labelMatrixPermissionsKickUserDescription": {
     "description": "Description for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsPermissions": "Дозволи",
   "@labelRoomSettingsPermissions": {
     "description": "Label for room permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPinMessage": "Закріпити повідомлення",
   "@promptPinMessage": {
     "description": "Label for the menu option to pin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUnpinMessage": "Відкріпити повідомлення",
   "@promptUnpinMessage": {
     "description": "Label for the menu option to unpin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplyInThread": "Відповісти в темі",
   "@promptReplyInThread": {
     "description": "Label for the menu option to reply to a message inside a thread",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplayMessageEffect": "Повторення ефекта",
   "@promptReplayMessageEffect": {
     "description": "If a message was sent with an effect, this prompts to replay the effect",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageUserEmote": "*{user} {emote}",
   "@messageUserEmote": {
     "description": "Message to display when a user does a custom emote (/me)",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "emote": {}
+      "user": { "type": "Object" },
+      "emote": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedNameDetailed": "{user} змінив своє ім'я на «{newName}»",
@@ -1606,8 +1606,8 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "newName": {}
+      "user": { "type": "Object" },
+      "newName": { "type": "Object" }
     }
   },
   "messageUserRetractedInvite": "{sender} скасував запрошення {user}",
@@ -1615,8 +1615,8 @@
     "description": "Message body for when a user's invitation to a room was withdrawn",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserAcceptedInvite": "{user} прийняв запрошення",
@@ -1624,7 +1624,7 @@
     "description": "Message body for when a user accepted an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserBanned": "{sender} забанив {user}",
@@ -1632,8 +1632,8 @@
     "description": "Message body for when a user bans another user from the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserPinnedEvent": "{user} закріпив повідомлення!",
@@ -1641,7 +1641,7 @@
     "description": "Message body for when a user adds an event to the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnpinnedEvent": "{user} відкріпив повідомлення",
@@ -1649,121 +1649,121 @@
     "description": "Message body for when a user removes an event from the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelUseRoomAvatars": "Використовувати аватари кімнат",
   "@labelUseRoomAvatars": {
     "description": "Label for enabling using room avatars instead of icons",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholdersDescription": "Якщо в кімнаті немає набору аватарів або їх використання вимкнено, використовується загальний колір + заповнювач першої літери для зображення",
   "@labelUseRoomAvatarPlaceholdersDescription": {
     "description": "Description for the enable generic icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableRoomIconsDescription": "Показувати зображення аватарів кімнат замість значків",
   "@labelEnableRoomIconsDescription": {
     "description": "Description for the enable room icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholders": "Використовувати аватарки-заповнювачі",
   "@labelUseRoomAvatarPlaceholders": {
     "description": "Label for enabling generic icons in the appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderSpaceAlias": "#крутецький-простір",
   "@placeholderSpaceAlias": {
     "description": "Placeholder / Example for a space alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAlias": "#крутецька-кімната",
   "@placeholderRoomAlias": {
     "description": "Placeholder / Example for a room alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCancelEventSend": "Скасувати",
   "@promptCancelEventSend": {
     "description": "When a message failed to send, this prompts to cancel sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRetryEventSend": "Повторити",
   "@promptRetryEventSend": {
     "description": "When a message failed to send, this prompts to retry sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatTitle": "Передперегляд URL-адрес у зашифрованих чатах",
   "@labelUrlPreviewInEncryptedChatTitle": {
     "description": "Label for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatDescription": "Це відкриє всі URL-адреси, надіслані в зашифрованих чатах, вашому домашньому серверу, щоби побачити передперегляд",
   "@labelUrlPreviewInEncryptedChatDescription": {
     "description": "description for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmoteName": "Назва смайлика",
   "@promptEmoteName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSaveEmoticon": "Зберегти!",
   "@promptConfirmSaveEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggle": "Публічні кімнати",
   "@labelMediaPreviewPublicRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewSettingsTitle": "Передперегляд медіа",
   "@labelMediaPreviewSettingsTitle": {
     "description": "Header for the settings tile for for media preview toggles",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggle": "Приватні кімнати",
   "@labelMediaPreviewPrivateRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggleDescription": "Вмикати / вимикає передперегляд зображень, відео, стікерів та посилань у приватних чатах",
   "@labelMediaPreviewPrivateRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for private rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggleDescription": "Вмикає / вимикає передперегляд зображень, відео, стікерів та посилань у публічних чатах",
   "@labelMediaPreviewPublicRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for public rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "editEmoticonDialogTitle": "Редагувати смайлик",
   "@editEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to edit an existing emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSticker": "Показати стікер",
   "@promptShowSticker": {
     "description": "Prompt to display a sticker, shown when media previews are disabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   }
 }

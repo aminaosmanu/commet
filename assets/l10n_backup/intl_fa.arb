@@ -4,33 +4,33 @@
     "description": "Message body for when a user created the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageFailedToDecrypt": "رمزگشایی رویداد انجام نشد",
   "@messageFailedToDecrypt": {
     "description": "Placeholde text for when a message fails to decrypt",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomsList": "اتاق‌ها",
   "@labelRoomsList": {
     "description": "Header label for the list of rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "fileDragDropPrompt": "برای بارگذاری پرونده را رها کنید...",
   "@fileDragDropPrompt": {
     "description": "Text that is shown when a user is dragging a file",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderSticker": "{user} یک شکلک فرستاد",
   "@messagePlaceholderSticker": {
     "description": "Message body for when a user sends a sticker",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   }
 }

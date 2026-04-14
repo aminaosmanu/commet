@@ -3,14 +3,14 @@
   "@labelRoomsList": {
     "description": "Header label for the list of rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserCreatedRoom": "{user} lõi jututoa!",
   "@messagePlaceholderUserCreatedRoom": {
     "description": "Message body for when a user created the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserLeftRoom": "{user} lahkus jututoast",
@@ -18,7 +18,7 @@
     "description": "Message body for when a user leaves the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserRejectedInvite": "{user} lükkas kutse tagasi",
@@ -26,7 +26,7 @@
     "description": "Message body for when a user rejected an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserEmote": "*{user} {emote}",
@@ -34,222 +34,222 @@
     "description": "Message to display when a user does a custom emote (/me)",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "emote": {}
+      "user": { "type": "Object" },
+      "emote": { "type": "Object" }
     }
   },
   "labelHomeInvitationBody": "Kutse jututuppa",
   "@labelHomeInvitationBody": {
     "description": "Displays a short description explaining that an invitation to a room was received. Does not need to contain the name of the room or inviter",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageEditedMarker": "(muudetud)",
   "@messageEditedMarker": {
     "description": "Short text to mark that a message has been edited",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerEmojiTab": "Emotikon",
   "@labelEmojiPickerEmojiTab": {
     "description": "Label for the emoji tab in emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerStickerTab": "Kleeps",
   "@labelEmojiPickerStickerTab": {
     "description": "Label for the sticker tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEmojiPickerGifTab": "Gif",
   "@labelEmojiPickerGifTab": {
     "description": "Label for the gif search tab in the emoji picker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "cantSentMessagePrompt": "Sul pole õigusi siin jututoas sõnumeid saata",
   "@cantSentMessagePrompt": {
     "description": "Text that explains the user cannot send a message in this room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLarge": "Fail on üleslaadimiseks liiga suur!",
   "@labelChatPageFileTooLarge": {
     "description": "Text that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelChatPageFileTooLargeTitle": "Faili suurim lubatud maht on ületatud",
   "@labelChatPageFileTooLargeTitle": {
     "description": "Title for the dialog that is shown when the user attempts to upload a file that is greater than the allowed size",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRecentActivity": "Hiljutised sündmused",
   "@labelHomeRecentActivity": {
     "description": "Short label for header of recent room activity",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeAlerts": "Hoiatused",
   "@labelHomeAlerts": {
     "description": "Short label for header of alerts",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSpace": "Lisa kogukond",
   "@promptAddSpace": {
     "description": "Prompt to add a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipSpaceSettings": "Kogukonna seadistused",
   "@tooltipSpaceSettings": {
     "description": "Tooltip for the button that opens space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "tooltipAddRoom": "Lisa jututuba",
   "@tooltipAddRoom": {
     "description": "Tooltip for the button that adds a new room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceRoomsList": "Jututoad",
   "@labelSpaceRoomsList": {
     "description": "Header label for the list of rooms in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPrivate": "Privaatne kogukond",
   "@labelSpaceVisibilityPrivate": {
     "description": "Label to display that the space is private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceGettingText": "Tere tulemast meie kogukonda \n\n # {spaceName}",
   "@labelSpaceGettingText": {
     "description": "Greeting to the space, supports markdown formatting",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "promptOpenDirectMessage": "Sõnum",
   "@promptOpenDirectMessage": {
     "description": "Prompt on the button to open a direct message with another user",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "directMessagesListHeaderMobile": "Otsevestlused",
   "@directMessagesListHeaderMobile": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "directMessagesListHeaderDesktop": "Otsevestlused",
   "@directMessagesListHeaderDesktop": {
     "description": "The header for the direct messages list on desktop",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPush": "Kasuta Unified Push teenuseid",
   "@labelEnableUnifiedPush": {
     "description": "Label for the toggle to enable Unified Push",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEnableUnifiedPushEndpoint": "Lõpppunkt",
   "@labelEnableUnifiedPushEndpoint": {
     "description": "Label for the Unified Push endpoint",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUnifiedPushNoEndpointFound": "Midagi läks nüüd viltu, lõpppunkti ei leidu :(",
   "@labelUnifiedPushNoEndpointFound": {
     "description": "Message for when a unified push endpoint could not be registered",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSettingsGeneral": "Üldist",
   "@labelSpaceSettingsGeneral": {
     "description": "Label for general space settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAppearanceSettings": "Välimus",
   "@labelSpaceAppearanceSettings": {
     "description": "Label for space appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceEmoticonSettings": "Emotikonid",
   "@labelSpaceEmoticonSettings": {
     "description": "Label for space emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpacePermissionSettings": "Õigused",
   "@labelSpacePermissionSettings": {
     "description": "Label for space permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceDeveloperSettings": "Arendaja",
   "@labelSpaceDeveloperSettings": {
     "description": "Label for space developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategorySpace": "Kogukonna seadistused",
   "@labelSettingsCategorySpace": {
     "description": "Label for the overall space settings category",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleMentionsAndKeywords": "Mainimised ja märksõnad",
   "@labelPushRuleMentionsAndKeywords": {
     "description": "Label for the push rule which notifies only for keywords and mentions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNone": "Summuta",
   "@labelPushRuleNone": {
     "description": "Label for the push rule which sends no notifications",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsNotifications": "Teavitused",
   "@labelRoomSettingsNotifications": {
     "description": "Label for the notifications section in room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryptionRoomSettings": "Kasuta krüptimist",
   "@promptEnableEncryptionRoomSettings": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanationRoomSettings": "Kui krüptimine on kord kasutusel, siis teda ei saa hiljem välja lülitada",
   "@encryptionCannotBeDisabledExplanationRoomSettings": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateEmoticonPack": "Loo lisapakk",
   "@promptCreateEmoticonPack": {
     "description": "Prompt to create a new emoticon pack, for emoji or stickers",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmDeleteEmoticonPack": "Kas sa soovid kustutada lisapaki **{packName}**?",
   "@promptConfirmDeleteEmoticonPack": {
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the pack name",
     "type": "text",
     "placeholders": {
-      "packName": {}
+      "packName": { "type": "Object" }
     }
   },
   "promptConfirmDeleteEmoticon": "Kas sa oled kindel, et soovid kustutada **{emoticon}** emotikoni?",
@@ -257,275 +257,275 @@
     "description": "Prompt to confirm deletion of an emoticon pack, supports markdown to emphasise the emote name",
     "type": "text",
     "placeholders": {
-      "emoticon": {}
+      "emoticon": { "type": "Object" }
     }
   },
   "promptEmoticonPackName": "Lisapaki nimi",
   "@promptEmoticonPackName": {
     "description": "Prompt for the input of the name of an emoticon pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiName": "Emotikoni nimi",
   "@promptEmojiName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptStickerName": "Kleepsu nimi",
   "@promptStickerName": {
     "description": "Prompt for the input of a sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmCreateEmoticon": "Tee valmis!",
   "@promptConfirmCreateEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsSecurity": "Turvalisus",
   "@labelRoomSettingsSecurity": {
     "description": "Label for room security settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsEmoticons": "Emotikonid",
   "@labelRoomSettingsEmoticons": {
     "description": "Label for room Emoticon settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsDeveloper": "Arendaja",
   "@labelRoomSettingsDeveloper": {
     "description": "Label for room developer settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsCategory": "Jututoa seadistused",
   "@labelRoomSettingsCategory": {
     "description": "Label for the overall settings category of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsPermissions": "Õigused",
   "@labelRoomSettingsPermissions": {
     "description": "Label for room permission settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleModerator": "Moderaator",
   "@labelMatrixPermissionsRoleModerator": {
     "description": "Label for the room moderator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleMember": "Jututoa liige",
   "@labelMatrixPermissionsRoleMember": {
     "description": "Label for the room member role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesTitle": "Sõnumite kustutamine",
   "@labelMatrixPermissionsRoomDeleteMessagesTitle": {
     "description": "Title for permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomDeleteMessagesDescription": "Kasutaja saab kustutada teiste kasutajate saadetud sõnumeid",
   "@labelMatrixPermissionsRoomDeleteMessagesDescription": {
     "description": "Describes the permission to delete messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsTitle": "Reaktsioonide lisamine",
   "@labelMatrixPermissionsRoomAddReactionsTitle": {
     "description": "Title for the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAddReactionsDescription": "Kasutaja saab sõnumitele reageerida",
   "@labelMatrixPermissionsRoomAddReactionsDescription": {
     "description": "describes the permission to add an emoji reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityDescription": "Kasutaja saab muuta jututoa sõnumite nähtavust",
   "@labelMatrixPermissionsRoomHistoryVisibilityDescription": {
     "description": "describes the permission to change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarTitle": "Jututoa tunnuspildi muutmine",
   "@labelMatrixPermissionsRoomAvatarTitle": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomAvatarDescription": "Kasutaja saab muuta jututoa tunnuspilti ehk avatari",
   "@labelMatrixPermissionsRoomAvatarDescription": {
     "description": "Title for the permission to add change the rooms avatar image",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameDescription": "Kasutaja saab muuta jututoa nime",
   "@labelMatrixPermissionsChangeRoomNameDescription": {
     "description": "Description for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicTitle": "Jututoa teema muutmine",
   "@labelMatrixPermissionsChangeRoomTopicTitle": {
     "description": "Title for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsDescription": "Kasutaja saab muuta õigusi jututoas",
   "@labelMatrixPermissionsChangeRoomPermissionsDescription": {
     "description": "Description for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserDescription": "Kasutava võib määrata teistele kasutajatele jututoa keelu",
   "@labelMatrixPermissionsBanUserDescription": {
     "description": "Description for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabProfile": "Profiil",
   "@labelSettingsTabProfile": {
     "description": "Label for the Profile settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryAccount": "Kasutajakonto",
   "@labelSettingsCategoryAccount": {
     "description": "Label for the settings category Account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLogoutSingleAccount": "Logi välja",
   "@promptLogoutSingleAccount": {
     "description": "Label for button in settings to log out of an account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAbortWipingMatrixKeys": "Appike, ei!",
   "@promptAbortWipingMatrixKeys": {
     "description": "Text on the button which aborts wiping matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptGenerateMatrixRecoveryKey": "Loo taastevõti",
   "@promptGenerateMatrixRecoveryKey": {
     "description": "Button text to generate a recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetMatrixPassphrase": "Lisa turvafraas",
   "@promptSetMatrixPassphrase": {
     "description": "Button text to set a passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewMatrixKeys": "Ei, pigem loo uued krüptovõtmed",
   "@promptCreateNewMatrixKeys": {
     "description": "Button text to opt to create new keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingMatrixKeys": "Kasuta olemasolevaid krüptovõtmeid",
   "@promptUseExistingMatrixKeys": {
     "description": "Button text to opt to use existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixBackup": "Kustuta varukoopia",
   "@promptWipeMatrixBackup": {
     "description": "Button text to wipe the matrix message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableMatrixBackup": "Võta kasutusele sõnumite varundus",
   "@promptEnableMatrixBackup": {
     "description": "Button text to enable to encrypted message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmWipingCrossSigningKeys": "Kas sa oled kindel, et soovid kustutada kõik oma risttunnustamise krüptovõtmed?",
   "@promptConfirmWipingCrossSigningKeys": {
     "description": "Asks the user if they are sure they want to wipe the keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainUpperAndLowercase": "Turvafraasis peab olema vähemalt 1 suurtäht ja 1 väiketäht",
   "@errorMatrixPassphraseMustContainUpperAndLowercase": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainNumber": "Turvafraasis peab olema vähemalt 1 number",
   "@errorMatrixPassphraseMustContainNumber": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphraseMustContainSymbol": "Turvafraasis peab olema vähemalt 1 sümbol",
   "@errorMatrixPassphraseMustContainSymbol": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "erroMatrixPassphraseMustBeLonger": "Turvafraas peab olema vähemalt 10 tähemärki pikk",
   "@erroMatrixPassphraseMustBeLonger": {
     "description": "Explains constraints of recovery passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixConfirmSecurityPhrase": "Korda turvafraasi",
   "@placeholderMatrixConfirmSecurityPhrase": {
     "description": "Placeholder text for the confirm passphrase text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPromptPassphrase": "Turvafraas:",
   "@labelMatrixPromptPassphrase": {
     "description": "Prompt the user to enter passphrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskEnableMessageBackup": "Kas sa soovid võtta kasutusele krüptovõtmete võrgupõhise varundamise?",
   "@labelMatrixAskEnableMessageBackup": {
     "description": "Asks the user if they want to enable online backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "fileDragDropPrompt": "Sikuta siia üleslaaditav fail...",
   "@fileDragDropPrompt": {
     "description": "Text that is shown when a user is dragging a file",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderSticker": "{user} saatis kleepsu",
   "@messagePlaceholderSticker": {
     "description": "Message body for when a user sends a sticker",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageFailedToDecrypt": "Sündmuse dekrüptimine ei õnnestunud",
   "@messageFailedToDecrypt": {
     "description": "Placeholde text for when a message fails to decrypt",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserJoinedRoom": "{user} liitus jututoaga!",
   "@messagePlaceholderUserJoinedRoom": {
     "description": "Message body for when a user joins the room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedAvatar": "{user} uuendas oma tunnuspilti",
@@ -533,7 +533,7 @@
     "description": "Message body for when a user updates their avatar",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserUpdatedName": "{user} uuendas oma kuvatavat nime",
@@ -541,7 +541,7 @@
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messagePlaceholderUserInvited": "{sender} saatis kutse kasutajale {invitedUser}",
@@ -549,665 +549,665 @@
     "description": "Message body for when a user invites another user to the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "invitedUser": {}
+      "sender": { "type": "Object" },
+      "invitedUser": { "type": "Object" }
     }
   },
   "errorMessageFailedToSend": "Saatmine ei õnnestunud",
   "@errorMessageFailedToSend": {
     "description": "Text that is placed below a message when the message fails to send",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelJumpToLatest": "Hüppa viimase sõnumi juurde",
   "@labelJumpToLatest": {
     "description": "Label for the button which jumps the room timeline view to the latest message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "typingUsers": "{howMany,plural, =1{{user1} kirjutab...}=2{{user1} ja {user2} kirjutavad...}few{{user1}, {user2} ja {user3} kirjutavad...}other{Mitu osalejat parasjagu kirjutavad...}}",
   "@typingUsers": {
     "description": "Text to display which users are currently typing",
     "type": "text",
     "placeholders": {
-      "howMany": {},
-      "user1": {},
-      "user2": {},
-      "user3": {}
+      "howMany": { "type": "Object" },
+      "user1": { "type": "Object" },
+      "user2": { "type": "Object" },
+      "user3": { "type": "Object" }
     }
   },
   "sendEncryptedMessagePrompt": "Saada krüptitud sõnum",
   "@sendEncryptedMessagePrompt": {
     "description": "Placeholder text for message input in an encrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "sendUnencryptedMessagePrompt": "Saada sõnum",
   "@sendUnencryptedMessagePrompt": {
     "description": "Placeholder text for message input in an unencrypted room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeInvitations": "Kutsed",
   "@labelHomeInvitations": {
     "description": "Short label for header of invitations list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelHomeRoomsList": "Jututoad",
   "@labelHomeRoomsList": {
     "description": "Short label for header of rooms list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceAvailableRoomsList": "Saadavalolevad jututoad",
   "@labelSpaceAvailableRoomsList": {
     "description": "Header label for the list of rooms in a space, which the user has not yet joined but are available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceVisibilityPublic": "Avalik kogukond",
   "@labelSpaceVisibilityPublic": {
     "description": "Label to display that the space is publically available",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "unifiedPushExplainer": "# Unified Push\nSee Commeti versioon on kompileeritud ilma Google Play Services toeta. Tõuketeavituste jaoks pead sa kasutama [Unified Push](https://unifiedpush.org/) teenuseid. \n\nKui sul juba on Unified Push teenustega ühilduv haldusrakendus paigaldatud, siis saad teda alljärgnevalt seadistada\n",
   "@unifiedPushExplainer": {
     "description": "Explains the need for unified push. Supports markdown",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "createEmoticonDialogTitle": "Loo emotikon",
   "@createEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to create a new emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "setupPageBeforeYouBegin": "Enne kui sa alustad...",
   "@setupPageBeforeYouBegin": {
     "description": "Title for first time setup page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRenameEmoticon": "Muuda emotikoni nime",
   "@promptRenameEmoticon": {
     "description": "Tooltip for button to rename emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppLogs": "Logid",
   "@labelSettingsAppLogs": {
     "description": "Label for the logs settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsGeneral": "Üldist",
   "@labelRoomSettingsGeneral": {
     "description": "Label for general room settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelPushRuleNotifyAll": "Kõik sõnumid",
   "@labelPushRuleNotifyAll": {
     "description": "Label for the push rule which notifies for all received messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRoomSettingsAppearance": "Välimus",
   "@labelRoomSettingsAppearance": {
     "description": "Label for room appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoleAdmin": "Peakasutaja",
   "@labelMatrixPermissionsRoleAdmin": {
     "description": "Label for the room administrator role",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenTitle": "Kogukonna osiste haldus",
   "@labelMatrixPermissionsSpaceManageChildrenTitle": {
     "description": "Title for permission to manage children",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsSpaceManageChildrenDescription": "Kasutaja saab hallata, mis jututoad kuuluvad kogukonda",
   "@labelMatrixPermissionsSpaceManageChildrenDescription": {
     "description": "Describes the permission to manage child rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesTitle": "Sõnumite saatmine",
   "@labelMatrixPermissionsRoomSendMessagesTitle": {
     "description": "Title for the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomSendMessagesDescription": "Kasutaja saab siia jututuppa sõnumeid saata",
   "@labelMatrixPermissionsRoomSendMessagesDescription": {
     "description": "Describes the permission to send messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsRoomHistoryVisibilityTitle": "Ajaloo nähtavus",
   "@labelMatrixPermissionsRoomHistoryVisibilityTitle": {
     "description": "Title for the permission to add change room history settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomNameTitle": "Jututoa nime muutmine",
   "@labelMatrixPermissionsChangeRoomNameTitle": {
     "description": "Title for the permission to add change the rooms name",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomTopicDescription": "Kasutaja saab muuta jututoa teemat",
   "@labelMatrixPermissionsChangeRoomTopicDescription": {
     "description": "Description for the permission to add change the rooms topic",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsChangeRoomPermissionsTitle": "Õiguste muutmine",
   "@labelMatrixPermissionsChangeRoomPermissionsTitle": {
     "description": "Title for the permission to change permissions of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserTitle": "Kasutajate müksamine",
   "@labelMatrixPermissionsKickUserTitle": {
     "description": "Title for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsKickUserDescription": "Kasutaja saab teisi kasutajaid jututoast välja müksata",
   "@labelMatrixPermissionsKickUserDescription": {
     "description": "Description for the permission to kick other users out of the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixPermissionsBanUserTitle": "Suhtluskeelu seadmine",
   "@labelMatrixPermissionsBanUserTitle": {
     "description": "Title for the permission to ban other users from the room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabManageAccounts": "Halda kasutajakontosid",
   "@labelSettingsTabManageAccounts": {
     "description": "Label for the Manage Accounts settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabSecurity": "Turvalisus",
   "@labelSettingsTabSecurity": {
     "description": "Label for the Security settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabEmoticons": "Emotikonid",
   "@labelSettingsTabEmoticons": {
     "description": "Label for the Emoticons settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsTabDeveloper": "Arendaja",
   "@labelSettingsTabDeveloper": {
     "description": "Label for the Developer settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddAccount": "Lisa kasutajakonto",
   "@promptAddAccount": {
     "description": "Label for button in settings to add another account",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelCurrentAccountsHeader": "Hetkel kasutatavad kontod",
   "@labelCurrentAccountsHeader": {
     "description": "Label for header of accounts list",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptWipeMatrixKeys": "Kustuta krüptovõtmed",
   "@promptWipeMatrixKeys": {
     "description": "Text on the button to wipe matrix encryption keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixConfirmSecurityPhrase": "Korda turvafraasi:",
   "@labelMatrixConfirmSecurityPhrase": {
     "description": "Prompts the user to input their passphrase again",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyCreateExplanation": "Me peame looma krüptovõtme, mis annab ligipääsu sõnumite ajaloole. Me kas tekitame ta automaatselt või sa saad selle ise kirjutada",
   "@labelMatrixRecoveryKeyCreateExplanation": {
     "description": "Explains what the matrix recovery key does, and that it can be generated or user input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelExistingMatrixKeysFound": "Aga me leidsime olemasolevad krüptovõtmed!",
   "@labelExistingMatrixKeysFound": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyExplanation": "See on sinu taastevõti. Kui sa peaksid kaotama ligipääsu kõikidele oma Matrixi sessioonidele, siis sa saad seda oma sessiooni verifitseerimiseks kasutada. Hoia teda turvaliselt kas vana kooli seifis või digitaalses turvalaekas!",
   "@labelMatrixRecoveryKeyExplanation": {
     "description": "Gives a brief description about the function on the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAskUseExistingMatrixKeys": "Kas sa sooviksid kasutada olemasolevaid krüptovõtmeid?",
   "@labelAskUseExistingMatrixKeys": {
     "description": "Text that is shown when the user is setting up cross signing, but has existing keys and asks the user if they would like to use those keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixRecoveryKeyPromptExplanation": "Vanade sõnumite lugemiseks palun siseta oma varasemas sessioonis loodud taastevõti. Taastamiseks mõeldud krüptovõti EI OLE sinu salasõna.",
   "@labelMatrixRecoveryKeyPromptExplanation": {
     "description": "Shown when a user is attempting to recover their old messages, explains that they need the recovery key",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptMatrixRecoveryKeyInput": "Taastevõti",
   "@promptMatrixRecoveryKeyInput": {
     "description": "Placeholder text for the recovery key input box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixSecurityPhraseShouldNotBePassword": "Sinu turvafraas peaks olema erinev kasutajakonto salasõnast",
   "@labelMatrixSecurityPhraseShouldNotBePassword": {
     "description": "Tells the user to not use their password as their security phrase",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "errorMatrixPassphrasesDontMatch": "Turvafraasid ei klapi omavahel",
   "@errorMatrixPassphrasesDontMatch": {
     "description": "Error when the user enters passphrase twice and the two dont match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderMatrixEnterSecutiyPhrase": "Turvafraas",
   "@placeholderMatrixEnterSecutiyPhrase": {
     "description": "Placeholder text for the passphrase text box",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExistingMessageBackupFound": "Leidsime olemasoleva varukoopia!",
   "@labelMatrixExistingMessageBackupFound": {
     "description": "Message to explain that existing backup has been found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAskWipeBackupToContinue": "Kui sa muudad oma risttunnustamise võtmeid, siis sa pead kustutama olemasoleva võtmete varukoopia... Kas jätkame?",
   "@labelMatrixAskWipeBackupToContinue": {
     "description": "Asks the user if they want to wipe their existing backup to continue changing their cross signing keys",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixWarnResetKeysIsPermanent": "Võtmete lähtestamine on lõplik tegevus ja sa kaotad ligipääsu oma vestluste ajaloole. On üsna kindel, et sa tegelikult ei taha seda teha!",
   "@labelMatrixWarnResetKeysIsPermanent": {
     "description": "Explains that resetting keys is permanent, should emphasize that this isnt really a great idea",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixExplainOnlineKeyBackup": "Võrgupõhine krüptovõtmete varundus võimaldab sul lugeda oma vanu sõnumeid ka siis, kui sul kaob ligipääs kõikidele oma Matrixi sessioonidele",
   "@labelMatrixExplainOnlineKeyBackup": {
     "description": "Explains what the message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigning": "Risttunnustamine",
   "@labelMatrixCrossSigning": {
     "description": "Title label for matrix cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixAccountSessions": "Sessioonid",
   "@labelMatrixAccountSessions": {
     "description": "Title label for account sessions",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixResetCrossSigningTitle": "Lähtesta risttunnustamine",
   "@labelMatrixResetCrossSigningTitle": {
     "description": "Title for the popup dialog when resetting cross signing",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackup": "Sõnumite varundus",
   "@labelMatrixMessageBackup": {
     "description": "TItle label for matrix message backup settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSetupMatrixMessageBackup": "Seadista varundus",
   "@promptSetupMatrixMessageBackup": {
     "description": "Text on the button to begin the setup process for message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelRestoreMatrixBackupTitle": "Taasta varukoopiast",
   "@labelRestoreMatrixBackupTitle": {
     "description": "Title of the popup dialog for restoring message backup",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptMatrixVerifySession": "Verifitseeri",
   "@promptMatrixVerifySession": {
     "description": "Text on the button to verify a session",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppGeneral": "Üldist",
   "@labelSettingsAppGeneral": {
     "description": "Label for the App General settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAppearance": "Välimus",
   "@labelSettingsAppAppearance": {
     "description": "Label for the App Appearance settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningAndBackup": "Risttunnustamine ja varundus",
   "@labelMatrixCrossSigningAndBackup": {
     "description": "Header label for matrix cross signing and message backup section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppAdvanced": "Täiendavad seadistused",
   "@labelSettingsAppAdvanced": {
     "description": "Label for the App Advanced settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixCrossSigningExplanation": "Pea arvet kõikide oma sessioonide üle ja verifitseeri neid",
   "@labelMatrixCrossSigningExplanation": {
     "description": "Explains what matrix cross signing does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMatrixMessageBackupExplanation": "Juhul, kui sa kaotad ligipääsu kõikidele oma Matrixi sessioonidele, on sul olemas varunduse kasutamisel olemas nende koopia. Enne üleslaadimist kõik sõnumid krüptitakse",
   "@labelMatrixMessageBackupExplanation": {
     "description": "Explains what matrix message backup does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviour": "Akende käitumine",
   "@labelSettingsWindowBehaviour": {
     "description": "Label for the Window Behaviour settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppNotifications": "Teavitused",
   "@labelSettingsAppNotifications": {
     "description": "Label for the App notifications settings page",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppDeveloperUtils": "Tarvikud arendajatele",
   "@labelSettingsAppDeveloperUtils": {
     "description": "Label for the developer utils settings page, usually hidden unless developer mode is turned on",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsAppTheme": "Kujundus",
   "@labelSettingsAppTheme": {
     "description": "Label for theme section of app appearance",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeDark": "Tume kujundus",
   "@labelThemeDark": {
     "description": "Label for the dark theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeLight": "Hele kujundus",
   "@labelThemeLight": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThemeAmoled": "Amoled",
   "@labelThemeAmoled": {
     "description": "Label for the light theme",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsCategoryApp": "Rakenduse seadistused",
   "@labelSettingsCategoryApp": {
     "description": "Label for the settings category of the overall App settings/",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelThirdPartyServicesTitle": "Kolmandate osapoolte teenused",
   "@labelThirdPartyServicesTitle": {
     "description": "Header for the third party services section in settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchToggle": "Gif-piltide otsing",
   "@labelGifSearchToggle": {
     "description": "Label for the toggle for enabling and disabling gif search",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelEncryptedPreview": "Urlide eelvaade krüptitud vestlustes (katseline)",
   "@labelEncryptedPreview": {
     "description": "Label for the toggle for enabling and disabling encrypted url preview",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsDeveloperMode": "Arendaja režiim",
   "@labelSettingsDeveloperMode": {
     "description": "Header for the settings to enable developer mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsDeveloperModeExplanation": "Selles töörežiimis näitame arendajatele vajalikku lisateavet",
   "@labelSettingsDeveloperModeExplanation": {
     "description": "Explains what developer mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelStickerCompatibility": "Kleepsude ühilduvus",
   "@labelStickerCompatibility": {
     "description": "Header for the settings to enable sticker compatibility mode",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsWindowBehaviourTitle": "Akende käitumine",
   "@labelSettingsWindowBehaviourTitle": {
     "description": "Header for the window behaviour section of settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseToggle": "Sulgemisel minimeeri ja ära sulge",
   "@labelSettingsMinimizeOnCloseToggle": {
     "description": "Label for the toggle to turn on and off minimize on close",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSettingsMinimizeOnCloseExplanation": "Rakenduse akna sulgemisel rakendus ei sulgu vaid lülitub tegumiribale minimeeritud vaatesse",
   "@labelSettingsMinimizeOnCloseExplanation": {
     "description": "Explains what the 'minimize on close' setting does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "notificationSettingsNotSupported": "Tõuketeavitused pole selles seadmes toetatud",
   "@notificationSettingsNotSupported": {
     "description": "Message to display when push notifications are not supported",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoom": "Lahku jututoast",
   "@promptLeaveRoom": {
     "description": "Text on a button to leave a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveRoomConfirmation": "Kas sa oled kindel, et soovid {roomName} jututoast lahkuda?",
   "@promptLeaveRoomConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave",
     "type": "text",
     "placeholders": {
-      "roomName": {}
+      "roomName": { "type": "Object" }
     }
   },
   "promptLeaveSpace": "Lahku kogukonnast",
   "@promptLeaveSpace": {
     "description": "Text on a button to leave a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageLoginFailed": "Sisselogimine ei õnnestunud...",
   "@messageLoginFailed": {
     "description": "Generic text to show that an attempted login has failed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageLoginError": "Tekkis viga",
   "@messageLoginError": {
     "description": "A generic error message to convey that an error occured when attempting to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPassword": "Salasõna",
   "@promptPassword": {
     "description": "Placeholder text for password field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmitLogin": "Logi sisse",
   "@promptSubmitLogin": {
     "description": "Prompt to submit the username and password, and attempt to login",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomName": "Jututoa nimi",
   "@promptRoomName": {
     "description": "Prompt to enter a room name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceName": "Kogukonna nimi",
   "@promptSpaceName": {
     "description": "Prompt to enter a space name, placeholder text for text input",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPrivateExplanation": "Siia jututuppa pääseb vaid kutse alusel",
   "@roomVisibilityPrivateExplanation": {
     "description": "Explains what 'private' room visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "roomVisibilityPublicExplanation": "Siia avalikku jututuppa pääsevad internetist kõik huvilised",
   "@roomVisibilityPublicExplanation": {
     "description": "Explains what 'public' visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPrivateExplanation": "Siia kogukonda pääseb vaid kutse alusel",
   "@spaceVisibilityPrivateExplanation": {
     "description": "Explains what 'private' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPrivate": "Privaatne",
   "@labelVisibilityPrivate": {
     "description": "Short label for room visibility private",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelVisibilityPublic": "Avalik",
   "@labelVisibilityPublic": {
     "description": "Short label for room visibility public",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnableEncryption": "Kasuta krüptimist",
   "@promptEnableEncryption": {
     "description": "Short prompt to enable encryption for a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "encryptionCannotBeDisabledExplanation": "Kui krüptimine on kord kasutusel, siis teda ei saa hiljem välja lülitada",
   "@encryptionCannotBeDisabledExplanation": {
     "description": "Explains that encryption cannot be disabled once enabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomCreation": "Loo jututuba!",
   "@promptConfirmRoomCreation": {
     "description": "Label for a button which confirms the creation of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceCreation": "Loo kogukond!",
   "@promptConfirmSpaceCreation": {
     "description": "Label for a button which confirms the creation of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmRoomJoin": "Liitu jututoaga!",
   "@promptConfirmRoomJoin": {
     "description": "Label for a button which confirms the joining of a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSpaceJoin": "Liitu kogukonnaga!",
   "@promptConfirmSpaceJoin": {
     "description": "Label for a button which confirms the joining of a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRoomAddress": "Jututoa aadress:",
   "@promptRoomAddress": {
     "description": "Short label to prompt for the input of a room address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSpaceAddress": "Kogukonna aadress:",
   "@promptSpaceAddress": {
     "description": "Short label to prompt for the input of a space address",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAddress": "#vahva-jututuba:example.com",
   "@placeholderRoomAddress": {
     "description": "Placeholder / Example for a room address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddSelectedRooms": "Lisa valitud jututoad kogukonda",
   "@promptAddSelectedRooms": {
     "description": "Prompt to add the selected rooms to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewSpace": "Loo uus kogukond",
   "@promptCreateNewSpace": {
     "description": "Prompt to create a new space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelAppScale": "Kasutajaliidese mõõtkava",
   "@labelAppScale": {
     "description": "Label for the setting which controls the UI scale of the overall app",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelGifSearchDescription": "Gif-piltide otsinguks kasuta teenust Tenor. Otsingupäringud suuname läbi {proxyUrl} proksiserveri",
   "@labelGifSearchDescription": {
     "description": "Explains that gifs will be fetched via proxy",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelEncryptedPreviewDescription": "Võrguaadresside eelvaate laadimiseks krüptitud vestlustes võta kasutusele proksiserver ({proxyUrl}). Selliste päringute sisu saab olema sinu koduserveri eest peidetud Commeti „krüptitud võrguaadresside eelvaate“ abil\nLisateavet leiad siit: https://github.com/commetchat/encrypted_url_preview",
@@ -1215,390 +1215,390 @@
     "description": "Explains briefly how encrypted url preview works",
     "type": "text",
     "placeholders": {
-      "proxyUrl": {}
+      "proxyUrl": { "type": "Object" }
     }
   },
   "labelSettingsStickerCompatibilityExplanation": "Mõned Matrixi kliendid ei kuva kleepse korralikult, kui kasutusel on „m.sticker“ meetod. Kui see seadistus on aktiivne, siis kasutame „m.image“ meetodit ja siis kuvatakse nad alati korrektselt",
   "@labelSettingsStickerCompatibilityExplanation": {
     "description": "Explains what sticker compatibility mode does",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptLeaveSpaceConfirmation": "Kas sa oled kindel, et soovid {spaceName} kogukonnast lahkuda?",
   "@promptLeaveSpaceConfirmation": {
     "description": "Text for the popup dialog confirming the intent to leave a space",
     "type": "text",
     "placeholders": {
-      "spaceName": {}
+      "spaceName": { "type": "Object" }
     }
   },
   "messageAlreadyLoggedIn": "Sa juba oled selle kasutajakontoga sisse loginud",
   "@messageAlreadyLoggedIn": {
     "description": "An error message displayed when the user attempts to add an account which has already been logged in to on this device",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHomeserver": "Koduserver",
   "@promptHomeserver": {
     "description": "Placeholder text for homeserver field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUsername": "Kasutajanimi",
   "@promptUsername": {
     "description": "Placeholder text for username field on login form",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptTopic": "Teema (kui soovid lisada)",
   "@promptTopic": {
     "description": "Prompt to enter a topic for room or space, specifying that doing so is optional",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "spaceVisibilityPublicExplanation": "Siia avalikku kogukonda pääsevad internetist kõik huvilised",
   "@spaceVisibilityPublicExplanation": {
     "description": "Explains what 'public' space visibility means",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderSpaceAddress": "#vahva-kogukond:domeen.tld",
   "@placeholderSpaceAddress": {
     "description": "Placeholder / Example for a space address. Please do not translate 'example.com' and keep the domain as is, this is a reserved domain specifically for use in examples, and translations could end up pointing to untrusted domains",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelCouldNotLoadRoomPreview": "Jututoa eelvaate laadimine ei õnnestunud",
   "@labelCouldNotLoadRoomPreview": {
     "description": "Error message for when a room preview was not able to be loaded",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingSpace": "Liitu olemasoleva kogukonnaga",
   "@promptJoinExistingSpace": {
     "description": "Prompt to join a space which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCreateNewRoom": "Loo uus jututuba",
   "@promptCreateNewRoom": {
     "description": "Prompt to create a new room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoinExistingRoom": "Liitu olemasoleva jututoaga",
   "@promptJoinExistingRoom": {
     "description": "Prompt to join a room which already exists",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUseExistingRoom": "Kasuta olemasolevat jututuba",
   "@promptUseExistingRoom": {
     "description": "Button text to choose to use an existing room when adding a room to a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageWaitingOtherDeviceToAccept": "Ootame, et teine seade vastaks verifitseerimispäringule",
   "@messageWaitingOtherDeviceToAccept": {
     "description": "Message to show while waiting for another device to accept a matrix session verification request",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageSasEmojiVerificationPrompt": "Palun kontrolli, et samad emotikonid oleks teises seadmes samas järjekorras",
   "@messageSasEmojiVerificationPrompt": {
     "description": "Explains what to look for when verifying using emoji. Needs to portray that the emoji MUST be the same AND in the same order",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmEmojiMatches": "Nad klapivad omavahel!",
   "@promptConfirmEmojiMatches": {
     "description": "Button text to confirm that the emoji matches",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmojiDoNotMatch": "Nad EI klapi omavahel",
   "@promptEmojiDoNotMatch": {
     "description": "Button text to confirm that the emoji do NOT match",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageVerificationComplete": "Verifitseerimine on valmis!",
   "@messageVerificationComplete": {
     "description": "Message to show when verification was completed successfully, and the session has been verified",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientEncryptionWarningTitle": "Hoiatus krüptimise kohta",
   "@matrixClientEncryptionWarningTitle": {
     "description": "Title of a warning about encryption",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAddReaction": "Reageeri",
   "@promptAddReaction": {
     "description": "Generic prompt to add reaction to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEdit": "Muuda",
   "@promptEdit": {
     "description": "Generic prompt to edit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptOptions": "Valikud",
   "@promptOptions": {
     "description": "Generic prompt for options, generally would be used to open a settings menu, extra details or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSettings": "Seadistused",
   "@promptSettings": {
     "description": "Generic prompt for settings, usually will open a settings menu or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptHome": "Avavaade",
   "@promptHome": {
     "description": "Generic prompt to go home, usually will go back to a main menu, or similar",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAccept": "Nõustu",
   "@promptAccept": {
     "description": "Generic prompt to accept something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptJoin": "Liitu",
   "@promptJoin": {
     "description": "Generic prompt to join a room",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptContinue": "Jätka",
   "@promptContinue": {
     "description": "Generic prompt to continue with some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEnable": "Võta kasutusele",
   "@promptEnable": {
     "description": "Generic prompt to enable something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRestore": "Taasta",
   "@promptRestore": {
     "description": "Generic prompt to restore something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptBack": "Tagasi",
   "@promptBack": {
     "description": "Prompt text to go backwards, probably for navigation",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopy": "Kopeeri",
   "@promptCopy": {
     "description": "Prompt to copy text",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelOr": "või",
   "@labelOr": {
     "description": "Text that is placed between two or more options: [button1] or [button2]",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messageMatrixSessionVerificationRequest": "**{username}** on palunud sinu sessiooni verifitseerimist",
   "@messageMatrixSessionVerificationRequest": {
     "description": "Message to show when another user has requested to verify your matrix session. Supports markdown to emphasise the user name",
     "type": "text",
     "placeholders": {
-      "username": {}
+      "username": { "type": "Object" }
     }
   },
   "notificationModifiersPrivacyEnhanced": "Saadetud sõnum",
   "@notificationModifiersPrivacyEnhanced": {
     "description": "Placeholder text to put in a notification when the user has privacy enhanced notifications enabled.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "matrixClientOlmMissingMessage": "Selles seadmes kas libolm teek on paigaldamata või teda ei õnnestu leida. Kuni see probleem korda ei saa, siis läbivat krüptimist ei saa kasutada",
   "@matrixClientOlmMissingMessage": {
     "description": "Text that explains to the user that libolm dependency is not found",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReply": "Vasta",
   "@promptReply": {
     "description": "Generic prompt to reply to a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReject": "Keeldu",
   "@promptReject": {
     "description": "Generic prompt to reject something, probably a request of some kind",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptApply": "Rakenda",
   "@promptApply": {
     "description": "Generic prompt to apply something, probably a setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDelete": "Kustuta",
   "@promptDelete": {
     "description": "Generic prompt to delete something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptSubmit": "Saada",
   "@promptSubmit": {
     "description": "Generic prompt to submit something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirm": "Kinnita",
   "@promptConfirm": {
     "description": "Generic prompt to confirm some action",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDone": "Valmis",
   "@promptDone": {
     "description": "Generic prompt to confirm that you are done",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReset": "Lähtesta",
   "@promptReset": {
     "description": "Generic prompt to reset something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPoliteNo": "Tänan, ei",
   "@promptPoliteNo": {
     "description": "Generic message to decline something, using nice manners :)",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCopyComplete": "Kopeeritud!",
   "@promptCopyComplete": {
     "description": "Prompt text for after a copy has been completed",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelInvitationsForUser": "{user} kutsed",
   "@labelInvitationsForUser": {
     "description": "Label for the list of incoming invitations, specifying which user these invitations are intended for",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelInvitations": "Kutsed",
   "@labelInvitations": {
     "description": "Label for the list of incoming invitations",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptAttachmentProcessingSendOriginal": "Saada fail muutmata kujul",
   "@promptAttachmentProcessingSendOriginal": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelSpaceSubspacesList": "Alamkogukonnad",
   "@labelSpaceSubspacesList": {
     "description": "Header label for the list of child spaces in a space",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptDownload": "Laadi alla",
   "@promptDownload": {
     "description": "Generic prompt to download something",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelInvitationBodyWithSender": "{user} saatis sulle kutse jututuppa",
   "@labelInvitationBodyWithSender": {
     "description": "Message body for when an invitation was received, and we have a name for the sender",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "labelImageContainsLocationInfo": "Hoiatus: selles failis leidub asukoha metateavet",
   "@labelImageContainsLocationInfo": {
     "description": "Prompt text for the option to send a file in its original state, without any further processing such as removing metadata",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptImportPack": "Impordi pakk",
   "@promptImportPack": {
     "description": "Prompt to import a set of emoticons from an existing pack",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "noPinnedMessages": "Ühtegi sõnumit pole esiletõstetud!",
   "@noPinnedMessages": {
     "description": "Placeholder label in the pinned messages menu that is shown when there are no pinned messages",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMessageEffectsTitle": "Sõnumiefektid",
   "@labelMessageEffectsTitle": {
     "description": "Header for the settings tile for message effects, such as confetti",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMessageEffectsDescription": "Sõnumitele võid saatmisel lisada erinevaid efekte, nagu serpentiinid",
   "@labelMessageEffectsDescription": {
     "description": "Label describing what message effects are",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptPinMessage": "Tõsta sõnum esile",
   "@promptPinMessage": {
     "description": "Label for the menu option to pin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptUnpinMessage": "Lõpeta sõnumi esiletõstmine",
   "@promptUnpinMessage": {
     "description": "Label for the menu option to unpin a message",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplyInThread": "Vasta jutulõngas",
   "@promptReplyInThread": {
     "description": "Label for the menu option to reply to a message inside a thread",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSource": "Näita lähtekoodi",
   "@promptShowSource": {
     "description": "Label for the menu option to view the JSON source of an event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptReplayMessageEffect": "Korda efekti uuesti",
   "@promptReplayMessageEffect": {
     "description": "If a message was sent with an effect, this prompts to replay the effect",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "messagePlaceholderUserUpdatedNameDetailed": "{user} muutis oma uueks kuvatavaks nimeks „{newName}“",
   "@messagePlaceholderUserUpdatedNameDetailed": {
     "description": "Message body for when a user updates their display name",
     "type": "text",
     "placeholders": {
-      "user": {},
-      "newName": {}
+      "user": { "type": "Object" },
+      "newName": { "type": "Object" }
     }
   },
   "messageUserRetractedInvite": "{sender} võttis kasutaja „{user}“ kutse tagasi",
@@ -1606,8 +1606,8 @@
     "description": "Message body for when a user's invitation to a room was withdrawn",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserAcceptedInvite": "{user} nõustus kutsega",
@@ -1615,7 +1615,7 @@
     "description": "Message body for when a user accepted an invitation to a room",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserBanned": "{sender} seadis suhtluskeelu kasutajale „{user}“",
@@ -1623,8 +1623,8 @@
     "description": "Message body for when a user bans another user from the room",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "messageUserPinnedEvent": "{user} tõstis sõnumi esile!",
@@ -1632,7 +1632,7 @@
     "description": "Message body for when a user adds an event to the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnpinnedEvent": "{user} eemaldas esiletõstetud sõnumi",
@@ -1640,7 +1640,7 @@
     "description": "Message body for when a user removes an event from the room's pinned messages",
     "type": "text",
     "placeholders": {
-      "user": {}
+      "user": { "type": "Object" }
     }
   },
   "messageUserUnbanned": "{sender} eemaldas kasutaja „{user}“ suhtluskeelu",
@@ -1648,122 +1648,122 @@
     "description": "Message body for when a user reverts a ban of another user",
     "type": "text",
     "placeholders": {
-      "sender": {},
-      "user": {}
+      "sender": { "type": "Object" },
+      "user": { "type": "Object" }
     }
   },
   "labelEnableRoomIconsDescription": "Näita jututubade ikoonide asemel tunnuspilte",
   "@labelEnableRoomIconsDescription": {
     "description": "Description for the enable room icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholders": "Kasuta kohatäitena loodud tunnuspilte",
   "@labelUseRoomAvatarPlaceholders": {
     "description": "Label for enabling generic icons in the appearance settings",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatars": "Kasuta jututubade tunnuspilte",
   "@labelUseRoomAvatars": {
     "description": "Label for enabling using room avatars instead of icons",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUseRoomAvatarPlaceholdersDescription": "Kui jututoa pole tunnuspilti kirjeldatud või nende kasutamine on keelatud, siis loo tunnuspilt üldisest taustavärvist ja jututoa nime esitähest",
   "@labelUseRoomAvatarPlaceholdersDescription": {
     "description": "Description for the enable generic icons setting",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderRoomAlias": "#vahva-jututuba",
   "@placeholderRoomAlias": {
     "description": "Placeholder / Example for a room alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "placeholderSpaceAlias": "#toimekas-kogukond",
   "@placeholderSpaceAlias": {
     "description": "Placeholder / Example for a space alias.",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptCancelEventSend": "Katkesta",
   "@promptCancelEventSend": {
     "description": "When a message failed to send, this prompts to cancel sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptRetryEventSend": "Proovi uuesti",
   "@promptRetryEventSend": {
     "description": "When a message failed to send, this prompts to retry sending the event",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggle": "Avalikud jututoad",
   "@labelMediaPreviewPublicRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "editEmoticonDialogTitle": "Muuda emotikoni",
   "@editEmoticonDialogTitle": {
     "description": "Title of a dialog that pops up when choosing to edit an existing emoticon",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptConfirmSaveEmoticon": "Salvesta!",
   "@promptConfirmSaveEmoticon": {
     "description": "Prompt to confirm the creation of an Emoticon Pack, Emoji, or Sticker",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptEmoteName": "Emotikoni nimi",
   "@promptEmoteName": {
     "description": "Prompt for the input of the name of an emoji",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatTitle": "Võrguaadresside eelvaade krüptitud vestlustes",
   "@labelUrlPreviewInEncryptedChatTitle": {
     "description": "Label for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelUrlPreviewInEncryptedChatDescription": "Eelvaate kuvamiseks vajalikud kõik sinu krüptitud vestlustesse saadetud võrguaadressid muutuvad nähtavaks sinu koduserverile",
   "@labelUrlPreviewInEncryptedChatDescription": {
     "description": "description for the toggle for enabling and disabling use of url previews in encrypted chats",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewSettingsTitle": "Meedia eelvaade",
   "@labelMediaPreviewSettingsTitle": {
     "description": "Header for the settings tile for for media preview toggles",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggle": "Privaatsed jututoad",
   "@labelMediaPreviewPrivateRoomsToggle": {
     "description": "Short label for the private rooms toggle in media previews section",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPrivateRoomsToggleDescription": "Lülita piltide, videote, kleepsude ja võrguaadresside kuvamine privaatsetes jututubades sisse/välja",
   "@labelMediaPreviewPrivateRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for private rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "labelMediaPreviewPublicRoomsToggleDescription": "Lülita piltide, videote, kleepsude ja võrguaadresside kuvamine avalikes jututubades sisse/välja",
   "@labelMediaPreviewPublicRoomsToggleDescription": {
     "description": "Label describing toggle of media previews for public rooms",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   },
   "promptShowSticker": "Näita kleepsu",
   "@promptShowSticker": {
     "description": "Prompt to display a sticker, shown when media previews are disabled",
     "type": "text",
-    "placeholders": {}
+    "placeholders": { "type": "Object" }
   }
 }
