@@ -1,6 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
+
+import 'package:vodozemac/vodozemac.dart' as vod;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:commet/cache/file_cache.dart';
 import 'package:commet/client/client_manager.dart';
 import 'package:commet/client/components/component.dart';
@@ -15,7 +18,7 @@ import 'package:commet/config/subplatforms/subplatforms.dart';
 import 'package:commet/debug/l10n_debug_lookup.dart';
 import 'package:commet/debug/log.dart';
 import 'package:commet/diagnostic/diagnostics.dart';
-import 'package:commet/generated/intl/messages_all.dart';
+//import 'package:commet/generated/intl/messages_all.dart';
 import 'package:commet/single_instance.dart';
 import 'package:commet/ui/pages/bubble/bubble_page.dart';
 import 'package:commet/ui/pages/fatal_error/fatal_error_page.dart';
@@ -143,6 +146,12 @@ void main(List<String> args) async {
 }
 
 void appMain() async {
+  if (kIsWeb) {
+    print(" Initializing Vodozemac Rust bridge...");
+    await vod.init(wasmPath: './assets/assets/vodozemac/');
+    print(" Vodozemac initialized!");
+  }
+  
   Log.prefix = "main";
   try {
     if (BuildConfig.WEB) {
@@ -151,7 +160,6 @@ void appMain() async {
         Layout.browserInfo = info;
       }
     }
-
     ensureBindingInit();
 
     if (PlatformUtils.isLinux || PlatformUtils.isWindows) {
@@ -228,8 +236,8 @@ Future<void> initGuiRequirements() async {
   Future.wait([
     UnicodeEmojis.load(),
     if (!preferences.debugTranslations.value)
-      initializeMessages(locale.languageCode),
-    if (preferences.debugTranslations.value) initializeMessagesDebug(),
+      //initializeMessages(locale.languageCode),
+    //if (preferences.debugTranslations.value) initializeMessagesDebug(),
     initializeDateFormatting(locale.languageCode),
   ]);
 
