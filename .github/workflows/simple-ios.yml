@@ -14,10 +14,9 @@ jobs:
         with:
           flutter-version: '3.29.0'
 
-      - name: Fix intl file location
+      - name: Create the missing intl file
         run: |
           mkdir -p lib/generated/intl
-          cp lib/generated/l10n/messages_all.dart lib/generated/intl/messages_all.dart 2>/dev/null || echo "File not found, will create"
           cat > lib/generated/intl/messages_all.dart << 'EOF'
           library messages_all;
           import 'dart:async';
@@ -25,11 +24,18 @@ jobs:
             return Future.value();
           }
           EOF
+          cat > lib/generated/intl/messages_en.dart << 'EOF'
+          library messages_en;
+          import 'package:intl/intl.dart';
+          final messages = {};
+          EOF
 
       - name: Build iOS for simulator
         run: |
           flutter pub get
           flutter build ios --simulator --release
+          echo "Build completed, checking output..."
+          ls -la build/ios/iphonesimulator/
           cd build/ios/iphonesimulator
           zip -r Runner.zip Runner.app
           mv Runner.zip ../../
