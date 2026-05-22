@@ -14,41 +14,13 @@ jobs:
         with:
           flutter-version: '3.29.0'
 
-      - name: Create the missing intl file
+      - name: Generate all missing files
         run: |
-          mkdir -p lib/generated/intl
-          cat > lib/generated/intl/messages_all.dart << 'EOF'
-          library messages_all;
-          import 'dart:async';
-          Future<Null> initializeMessages(String locale) async {
-            return Future.value();
-          }
-          EOF
-          cat > lib/generated/intl/messages_en.dart << 'EOF'
-          library messages_en;
-          import 'package:intl/intl.dart';
-          final messages = {};
-          EOF
-
-      - name: Create missing emoji file
-        run: |
-          mkdir -p lib/utils/emoji
-          cat > lib/utils/emoji/unicode_emoji_data_groups.g.dart << 'EOF'
-          // Auto-generated emoji data
-          const Map<String, dynamic> emojiData = {};
-          EOF
-
-      - name: Create missing drift file
-        run: |
-          mkdir -p lib/cache
-          cat > lib/cache/drift_file_cache.g.dart << 'EOF'
-          import 'package:drift/drift.dart';
-          part of 'drift_file_cache.dart';
-          EOF
+          flutter pub get
+          flutter pub run build_runner build --delete-conflicting-outputs
 
       - name: Build iOS for simulator
         run: |
-          flutter pub get
           flutter build ios --simulator --debug
           cd build/ios/iphonesimulator
           zip -r Runner.zip Runner.app
