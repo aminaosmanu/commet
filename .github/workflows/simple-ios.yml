@@ -33,7 +33,7 @@ jobs:
       - name: Build iOS for simulator
         run: |
           flutter pub get
-          flutter build ios --simulator --release
+          flutter build ios --simulator --debug
           echo "Build completed, checking output..."
           ls -la build/ios/iphonesimulator/
           cd build/ios/iphonesimulator
