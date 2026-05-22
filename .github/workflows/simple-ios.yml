@@ -30,6 +30,15 @@ jobs:
           final messages = {};
           EOF
 
+      - name: Create missing emoji file
+        run: |
+          mkdir -p lib/utils/emoji
+          cat > lib/utils/emoji/unicode_emoji_data_groups.g.dart << 'EOF'
+          // Auto-generated emoji data
+          const Map<String, dynamic> emojiData = {};
+          EOF
+
+
       - name: Build iOS for simulator
         run: |
           flutter pub get
