@@ -38,13 +38,18 @@ jobs:
           const Map<String, dynamic> emojiData = {};
           EOF
 
+      - name: Create missing drift file
+        run: |
+          mkdir -p lib/cache
+          cat > lib/cache/drift_file_cache.g.dart << 'EOF'
+          import 'package:drift/drift.dart';
+          part of 'drift_file_cache.dart';
+          EOF
 
       - name: Build iOS for simulator
         run: |
           flutter pub get
           flutter build ios --simulator --debug
-          echo "Build completed, checking output..."
-          ls -la build/ios/iphonesimulator/
           cd build/ios/iphonesimulator
           zip -r Runner.zip Runner.app
           mv Runner.zip ../../
