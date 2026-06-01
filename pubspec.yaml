@@ -48,7 +48,8 @@ dependencies:
   url_launcher: ^6.1.11
   win_toast: ^0.4.0
   window_manager: ^0.5.1
-  flutter: 
+  flutter:
+    generate: true 
     sdk: flutter
   flutter_highlighter: 
     git: 
@@ -128,6 +129,10 @@ dependency_overrides:
   analyzer: ^7.3.0
   meta: 1.15.0
   intl: 0.19.0
+  calendar_view:
+    git: https://github.com/commetchat/flutter_calendar_view.git
+
+
   ## For inline-reply 
   flutter_local_notifications_linux: 
     git: 
@@ -226,7 +231,7 @@ flutter:
       fonts: 
         - asset: assets/font/code/JetBrainsMono-Regular.ttf
   uses-material-design: true
- # generate: true
+  generate: true
 
 msix_config: 
   display_name: Commet
