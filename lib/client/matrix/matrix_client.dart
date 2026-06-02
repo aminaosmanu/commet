@@ -1,4 +1,3 @@
-import 'matrix_native_implementations_olm.dart';
 import 'dart:async';
 import 'package:collection/collection.dart';
 import 'package:commet/client/alert.dart';
