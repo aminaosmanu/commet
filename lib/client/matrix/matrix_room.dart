@@ -383,8 +383,8 @@ class MatrixRoom extends Room {
             bytes: attachment.data!,
             name: name,
             mimeType: attachment.mimeType,
-            nativeImplementations:
-                (client as MatrixClient).nativeImplentations));
+            nativeImplementations: MatrixClient.nativeImplementations,
+        ));
       }
     } catch (error, stack) {
       // This image is probably corrupt, since it has a mime type we should be able to display,

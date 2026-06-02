@@ -1,3 +1,4 @@
+import 'matrix_native_implementations_olm.dart';
 import 'dart:async';
 import 'package:collection/collection.dart';
 import 'package:commet/client/alert.dart';
@@ -62,9 +63,14 @@ class MatrixClient extends Client {
 
   final StreamController _onSync = StreamController.broadcast();
 
-  matrix.NativeImplementations get nativeImplentations => BuildConfig.WEB
-      ? const matrix.NativeImplementationsDummy()
-      : NativeImplementationsCustom(compute);
+   static matrix.NativeImplementations get nativeImplementations =>
+    matrix.NativeImplementationsIsolate(
+      compute,
+      vodozemacInit: vodozemac.init,
+    );
+  
+         
+
 
   MatrixClient({
     required String identifier,
@@ -210,31 +216,30 @@ class MatrixClient extends Client {
     });
   }
 
-  static Future<void> _checkSystem(ClientManager clientManager) async {
-    try {
-      await vod.init(wasmPath: './assets/assets/vodozemac/');
-      if (!vod.isInitialized()) {
-        throw Exception("Vodozemac failed to initialize!");
-      }
-    } catch (exception, trace) {
-      Log.onError(exception, trace, content: "Failed to initialize vodozemac");
-      clientManager.alertManager.addAlert(
-        Alert(
-          AlertType.warning,
-          titleGetter: () => matrixClientEncryptionWarningTitle,
-          messageGetter: () => matrixClientVodozemacMissingMessage,
-        ),
-      );
-    }
+static Future<void> _checkSystem(ClientManager clientManager) async {
+  // On web, skip this check because Vodozemac is already initialized in appMain()
+  if (BuildConfig.WEB) {
+    print("Web: Skipping _checkSystem, Vodozemac already initialized");
+    return;
   }
-
-  static matrix.NativeImplementations get nativeImplementations =>
-      BuildConfig.WEB
-          ? const matrix.NativeImplementationsDummy()
-          : matrix.NativeImplementationsIsolate(
-              compute,
-              vodozemacInit: vodozemac.init,
-            );
+  
+  try {
+    await vod.init(wasmPath: './assets/assets/vodozemac/');
+    if (!vod.isInitialized()) {
+      throw Exception("Vodozemac failed to initialize!");
+    }
+    print("✅ Vodozemac initialized on web!");
+  } catch (exception, trace) {
+    Log.onError(exception, trace, content: "Failed to initialize vodozemac");
+    clientManager.alertManager.addAlert(
+      Alert(
+        AlertType.warning,
+        titleGetter: () => matrixClientEncryptionWarningTitle,
+        messageGetter: () => matrixClientVodozemacMissingMessage,
+      ),
+    );
+  }
+}
   @override
   Future<void> init(
     bool loadingFromCache, {

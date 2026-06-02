@@ -49,7 +49,6 @@ dependencies:
   win_toast: ^0.4.0
   window_manager: ^0.5.1
   flutter:
-    generate: true 
     sdk: flutter
   flutter_highlighter: 
     git: 

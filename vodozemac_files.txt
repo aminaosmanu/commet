@@ -1,0 +1,9 @@
+./lib/client/matrix/components/profile/matrix_profile_component.dart:import 'package:vodozemac/vodozemac.dart' as vod;
+./lib/client/matrix/matrix_client.dart:import 'package:flutter_vodozemac/flutter_vodozemac.dart' as vodozemac;
+./lib/client/matrix/matrix_client.dart:import 'package:vodozemac/vodozemac.dart' as vod;
+./lib/client/matrix/matrix_client.dart:        "vodozemac is not installed or was not found. End to End Encryption will not be available until this is resolved",
+./lib/client/matrix/matrix_client.dart:            "Text that explains to the user that vodozemac dependency is not found",
+./lib/client/matrix/matrix_client.dart:      await vod.init(wasmPath: './assets/assets/vodozemac/');
+./lib/client/matrix/matrix_client.dart:      Log.onError(exception, trace, content: "Failed to initialize vodozemac");
+./lib/client/matrix/matrix_client.dart:              vodozemacInit: vodozemac.init,
+./lib/ui/pages/settings/categories/about/settings_category_about.dart:import 'package:vodozemac/vodozemac.dart' as vod;

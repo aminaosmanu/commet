@@ -1,15 +1,53 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.g.dart
+*.reflectable.dart
+*.widgetbook.dart
+migrate_working_dir/
 
-commet/coverage/lcov.info
-commet/assets/js/package/olm.js
-commet/assets/js/package/olm.wasm
-commet/assets/js/package/olm_legacy.js
-commet/.vodozemac/
-commet/assets/vodozemac/vodozemac_bindings_dart_bg.wasm
-commet/assets/vodozemac/vodozemac_bindings_dart.js
-/.dart_tool
-build/.last_build_id
-widgets/matrix_widget_api/build/.last_build_id
-widgets/calendar/android/local.properties
-.vscode/settings.json
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
 .idea/
-/build
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+/lib/generated
+/integration_test/generated
+/linux/flatpak/.flatpak-builder
+/linux/flatpak/commet/bundle
+/linux/flatpak/repo
+*.flatpak
