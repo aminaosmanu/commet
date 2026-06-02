@@ -6,30 +6,28 @@ on:
 jobs:
   build:
     runs-on: macos-latest
-
+    
     steps:
       - uses: actions/checkout@v4
-
+      
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.41.1'
-
-      - name: Generate localizations and build files
+          flutter-version: '3.24.x'
+      
+      - name: Clean and build
         run: |
+          flutter clean
           flutter pub get
-          flutter gen-l10n
-          flutter pub run build_runner build --delete-conflicting-outputs
-
-      - name: Build iOS for simulator
-        run: |
+          cd ios
+          pod repo update
+          pod install --repo-update
+          cd ..
           flutter build ios --simulator --debug
           cd build/ios/iphonesimulator
           zip -r Runner.zip Runner.app
           mv Runner.zip ../../
-          ls -la
-
+      
       - uses: actions/upload-artifact@v4
         with:
-          name: simulator-app
-          path: Runner.zip
-        if: always()
+          name: ios-simulator-app
+          path: build/Runner.zip
