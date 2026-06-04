@@ -12,7 +12,8 @@ jobs:
       
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.x'
+          flutter-version: '3.27.0'
+          channel: 'stable'
       
       - name: Clean and build
         run: |
@@ -22,7 +23,7 @@ jobs:
           pod repo update
           pod install --repo-update
           cd ..
-          flutter build ios --simulator --debug
+          flutter build ios --simulator --debug --no-codesign
           cd build/ios/iphonesimulator
           zip -r Runner.zip Runner.app
           mv Runner.zip ../../
