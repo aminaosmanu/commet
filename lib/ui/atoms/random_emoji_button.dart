@@ -75,7 +75,7 @@ class _RandomEmojiButtonState extends State<RandomEmojiButton> {
                     colorFilter: saturationColorFilter(showColor ? 1 : 0),
                     child: EmojiWidget(
                       UnicodeEmoticon(emoji),
-                      padding: EdgeInsetsGeometry.all(1),
+                      padding: EdgeInsets.all(1),
                     ),
                   ),
                 ),

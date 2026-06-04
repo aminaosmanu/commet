@@ -69,7 +69,7 @@ class CalendarCreatorDescription extends StatelessWidget {
                 color: ColorScheme.of(context).surfaceContainerLow,
                 borderRadius: BorderRadius.circular(8)),
             child: Padding(
-              padding: EdgeInsetsGeometry.all(8),
+              padding: EdgeInsets.all(8),
               child: Center(
                 child: Row(
                   mainAxisSize: MainAxisSize.min,

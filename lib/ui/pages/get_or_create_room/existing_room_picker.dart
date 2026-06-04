@@ -99,7 +99,7 @@ class _ExistingRoomPickerState extends State<ExistingRoomPicker> {
     return Column(
       children: [
         Padding(
-          padding: EdgeInsetsGeometry.all(8),
+          padding: EdgeInsets.all(8),
           child: SegmentedButton(
               emptySelectionAllowed: true,
               multiSelectionEnabled: false,

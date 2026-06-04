@@ -145,7 +145,7 @@ class _GifPickerState extends State<GifPicker> {
       child: MasonryGridView.extent(
         maxCrossAxisExtent: 300,
         mainAxisSpacing: 8,
-        padding: EdgeInsetsGeometry.all(0),
+        padding: EdgeInsets.all(0),
         crossAxisSpacing: 8,
         itemCount: searchResult!.length,
         itemBuilder: (context, index) {

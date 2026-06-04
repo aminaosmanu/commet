@@ -143,7 +143,7 @@ class TimelineOverlayState extends State<TimelineOverlay> {
                           child: EmojiWidget(
                             e,
                             height: size / 1.5,
-                            padding: const EdgeInsetsGeometry.all(2),
+                            padding: const EdgeInsets.all(2),
                           ),
                           onTap: () {
                             currentMenu?.timeline.room

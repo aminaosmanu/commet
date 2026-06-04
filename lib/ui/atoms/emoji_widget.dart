@@ -11,7 +11,7 @@ class EmojiWidget extends StatelessWidget {
   EmojiWidget(this.emoji,
       {super.key,
       this.height = 24,
-      this.padding = const EdgeInsetsGeometry.all(0)});
+      this.padding = const EdgeInsets.all(0)});
 
   @override
   Widget build(BuildContext context) {

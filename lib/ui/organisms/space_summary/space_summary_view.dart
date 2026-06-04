@@ -580,7 +580,7 @@ class SpaceSummaryViewState extends State<SpaceSummaryView> {
               borderRadius: BorderRadius.circular(8),
               color: Theme.of(context).colorScheme.surfaceContainer),
           child: tiamat.TextButtonExpander(item.child.displayName,
-              textPadding: EdgeInsetsGeometry.all(20),
+              textPadding: EdgeInsets.all(20),
               icon: Icons.star, onNameTapped: () {
             widget.onSpaceTap?.call(item.child);
           },
