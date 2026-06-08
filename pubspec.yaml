@@ -160,7 +160,6 @@ dev_dependencies:
   pubspec_dependency_sorter: ^1.0.4
   flutter_test: 
     sdk: flutter
-  integration_test: 
     sdk: flutter
   file: any
   
