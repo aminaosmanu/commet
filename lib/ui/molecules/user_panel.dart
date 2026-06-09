@@ -189,7 +189,7 @@ class UserPanelView extends material.StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 material.Stack(
-                  alignment: AlignmentGeometry.bottomRight,
+                  alignment: Alignment.bottomRight,
                   children: [
                     Avatar(
                       radius: avatarSize,

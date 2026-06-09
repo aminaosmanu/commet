@@ -192,7 +192,7 @@ class HeaderView extends StatelessWidget {
                         padding: iconPadding ?? EdgeInsets.zero,
                         child: SizedBox(
                           child: Stack(
-                            alignment: AlignmentGeometry.bottomRight,
+                            alignment: Alignment.bottomRight,
                             children: [
                               iconWidget!,
                               if (status != null)

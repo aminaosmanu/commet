@@ -107,7 +107,7 @@ class _VoipStreamViewState extends State<VoipStreamView>
         return tiamat.Tile.low(
           child: Center(
               child: Stack(
-            alignment: AlignmentGeometry.bottomRight,
+            alignment: Alignment.bottomRight,
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),

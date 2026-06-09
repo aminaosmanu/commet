@@ -295,7 +295,7 @@ class _CalendarWidgetViewState extends State<CalendarWidgetView> {
               ),
             if (widget.watermark)
               Align(
-                alignment: AlignmentGeometry.bottomRight,
+                alignment: Alignment.bottomRight,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(4, 4, 8, 4),
                   child: ClipRRect(

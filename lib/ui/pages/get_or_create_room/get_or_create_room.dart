@@ -401,7 +401,7 @@ class _GetOrCreateRoomState extends State<GetOrCreateRoom> {
                               )),
                             if (!selected!.hero)
                               Align(
-                                alignment: AlignmentGeometry.bottomRight,
+                                alignment: Alignment.bottomRight,
                                 child: tiamat.Button(
                                   text: CommonStrings.promptNext,
                                   onTap: () {

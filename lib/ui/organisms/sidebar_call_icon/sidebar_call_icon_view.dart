@@ -28,7 +28,7 @@ class SidebarCallIconView extends StatelessWidget {
         aspectRatio: 1,
         child: pickAnimation(
           child: Stack(
-            alignment: AlignmentGeometry.bottomRight,
+            alignment: Alignment.bottomRight,
             children: [
               ImageButton(
                 size: width,

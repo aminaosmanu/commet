@@ -87,7 +87,7 @@ class _VoipRoomViewState extends State<VoipRoomView> {
               : joinCallView(),
         ),
         Align(
-          alignment: AlignmentGeometry.bottomLeft,
+          alignment: Alignment.bottomLeft,
           child: tiamat.Tooltip(
             text: widget.voip.room.isE2EE
                 ? "This room is encrypted, your call is secure and private"
