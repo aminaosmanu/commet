@@ -318,7 +318,7 @@ class _HeaderBurgerState extends State<HeaderBurger> {
       width: 40,
       height: 40,
       child: Stack(
-        alignment: AlignmentGeometry.xy(0.4, 0.3),
+        alignment: Alignment(0.4, 0.3),
         children: [
           tiamat.IconButton(
             iconColor: m.ColorScheme.of(context).onSurface,

@@ -61,7 +61,7 @@ class _SpaceHeaderState extends State<SpaceHeader> {
                 image: banner?.banner ?? widget.space.avatar!,
                 fit: BoxFit.cover,
                 alignment: padding.top > 0
-                    ? AlignmentGeometry.xy(0, -0.25)
+                    ? Alignment(0, -0.25)
                     : Alignment.center,
                 filterQuality: FilterQuality.medium,
               ),
