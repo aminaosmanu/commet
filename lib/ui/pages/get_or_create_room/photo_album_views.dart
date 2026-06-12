@@ -44,7 +44,7 @@ class PhotoAlbumCreatorDescription extends StatelessWidget {
           itemCount: images.length,
           itemBuilder: (context, index) {
             return ClipRRect(
-                borderRadius: BorderRadiusGeometry.circular(8),
+                borderRadius: BorderRadius.circular(8),
                 child: Image(image: images[index]));
           },
         )

@@ -124,7 +124,7 @@ class TextButtonExpander extends StatelessWidget {
           title:
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
             ClipRRect(
-              borderRadius: BorderRadiusGeometry.circular(8),
+              borderRadius: BorderRadius.circular(8),
               child: Material(
                 color: Colors.transparent,
                 child: InkWell(

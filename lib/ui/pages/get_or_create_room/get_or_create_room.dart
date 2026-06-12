@@ -314,7 +314,7 @@ class _GetOrCreateRoomState extends State<GetOrCreateRoom> {
 
               return Container(
                 child: ClipRRect(
-                  borderRadius: BorderRadiusGeometry.circular(8),
+                  borderRadius: BorderRadius.circular(8),
                   child: SizedBox(
                       height: 500,
                       child: ListView(

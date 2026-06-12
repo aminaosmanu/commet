@@ -45,7 +45,7 @@ class _PhotosAlbumUploadViewState extends State<PhotosAlbumUploadView> {
                                 height: 64,
                                 child: ClipRRect(
                                     borderRadius:
-                                        BorderRadiusGeometry.circular(8),
+                                        BorderRadius.circular(8),
                                     child: buildFilePreview(i))),
                           ),
                         ),

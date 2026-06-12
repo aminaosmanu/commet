@@ -200,7 +200,7 @@ class UserProfileViewState extends State<UserProfileView> {
     const avatarOverlap = 50.0;
 
     return ClipRRect(
-      borderRadius: BorderRadiusGeometry.circular(8),
+      borderRadius: BorderRadius.circular(8),
       child: Container(
         child: ConstrainedBox(
           constraints: BoxConstraints(maxWidth: widget.width),
@@ -249,7 +249,7 @@ class UserProfileViewState extends State<UserProfileView> {
                         child: Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: ClipRRect(
-                            borderRadius: BorderRadiusGeometry.circular(15),
+                            borderRadius: BorderRadius.circular(15),
                             child: SizedBox(
                                 width: 30,
                                 height: 30,

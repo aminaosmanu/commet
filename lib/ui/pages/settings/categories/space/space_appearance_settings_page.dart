@@ -66,7 +66,7 @@ class _SpaceAppearanceSettingsPageState
         if (canEditBanner) tiamat.Text.labelLow("Set Banner:"),
         if (canEditBanner)
           ClipRRect(
-            borderRadius: BorderRadiusGeometry.circular(12),
+            borderRadius: BorderRadius.circular(12),
             child: DecoratedBox(
               decoration: BoxDecoration(
                   color: Theme.of(context).colorScheme.surfaceContainerLow,

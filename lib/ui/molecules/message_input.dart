@@ -911,7 +911,7 @@ class MessageInputState extends State<MessageInput> {
           duration: Durations.medium1,
           builder: (context, value, child) {
             return ClipRRect(
-              borderRadius: BorderRadiusGeometry.circular(widget.size),
+              borderRadius: BorderRadius.circular(widget.size),
               child: Material(
                 child: AdaptiveContextMenu(
                   modal: true,
@@ -986,7 +986,7 @@ class MessageInputState extends State<MessageInput> {
           controller: emojiTooltipController,
           backgroundColor: Theme.of(context).colorScheme.surfaceContainerLow,
           content: ClipRRect(
-            borderRadius: BorderRadiusGeometry.circular(8),
+            borderRadius: BorderRadius.circular(8),
             child: Material(
               child: Container(
                 color: Theme.of(context).colorScheme.surfaceContainerLow,

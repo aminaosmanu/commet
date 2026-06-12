@@ -123,7 +123,7 @@ class _PhotoAlbumViewState extends State<PhotoAlbumView> {
       child: Stack(
         children: [
           ClipRRect(
-            borderRadius: BorderRadiusGeometry.circular(8),
+            borderRadius: BorderRadius.circular(8),
             child: MasonryGridView.extent(
               padding: EdgeInsets.all(0),
               crossAxisSpacing: 8,
@@ -134,7 +134,7 @@ class _PhotoAlbumViewState extends State<PhotoAlbumView> {
               itemBuilder: (context, index) {
                 var item = timeline!.photos[index];
                 return ClipRRect(
-                  borderRadius: BorderRadiusGeometry.circular(8),
+                  borderRadius: BorderRadius.circular(8),
                   child: buildAttachment(item),
                 );
               },

@@ -200,7 +200,7 @@ class _ExpandableCodeBlockState extends State<ExpandableCodeBlock> {
         : widget.text;
 
     return ClipRRect(
-      borderRadius: BorderRadiusGeometry.circular(8),
+      borderRadius: BorderRadius.circular(8),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
