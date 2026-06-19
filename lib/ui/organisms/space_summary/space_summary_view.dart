@@ -315,8 +315,8 @@ class SpaceSummaryViewState extends State<SpaceSummaryView> {
       children: [
         Padding(
           padding: Layout.desktop
-              ? EdgeInsetsGeometry.only(left: 8, right: 8)
-              : EdgeInsetsGeometry.zero,
+              ? EdgeInsets.only(left: 8, right: 8)
+              : EdgeInsets.zero,
           child: DecoratedBox(
               decoration: BoxDecoration(
                   image: widget.banner != null

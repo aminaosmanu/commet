@@ -806,7 +806,7 @@ class UserProfileViewState extends State<UserProfileView> {
       child: InkWell(
         onTap: widget.isSelf ? () => widget.editBadges?.call() : null,
         child: Padding(
-            padding: EdgeInsetsGeometry.fromLTRB(2, 2, 2, 2),
+            padding: EdgeInsets.fromLTRB(2, 2, 2, 2),
             child: Wrap(
               spacing: 8,
               children: widget.badges.map((i) => buildBadge(i)).toList(),

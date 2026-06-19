@@ -387,7 +387,7 @@ class _GetOrCreateRoomState extends State<GetOrCreateRoom> {
                                   physics: NeverScrollableScrollPhysics(),
                                   child: Padding(
                                     padding:
-                                        EdgeInsetsGeometry.fromLTRB(0, 0, 0, 0),
+                                        EdgeInsets.fromLTRB(0, 0, 0, 0),
                                     child:
                                         selected!.descriptionBuilder(context),
                                   ),

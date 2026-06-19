@@ -136,7 +136,7 @@ class EventViewBox extends StatelessWidget {
                                         if (!rotate)
                                           Padding(
                                             padding:
-                                                EdgeInsetsGeometry.fromLTRB(
+                                                EdgeInsets.fromLTRB(
                                                     2, 2, 0, 0),
                                             child: tiamat.Avatar(
                                               radius: avatarRadius,
@@ -153,7 +153,7 @@ class EventViewBox extends StatelessWidget {
                                         if (rotate)
                                           Padding(
                                             padding:
-                                                EdgeInsetsGeometry.fromLTRB(
+                                                EdgeInsets.fromLTRB(
                                                     2, 0, 0, 0),
                                             child: Text(
                                               event.data.title,
@@ -181,7 +181,7 @@ class EventViewBox extends StatelessWidget {
                                           Flexible(
                                             child: Padding(
                                               padding:
-                                                  EdgeInsetsGeometry.fromLTRB(
+                                                  EdgeInsets.fromLTRB(
                                                       2, 0, 0, 0),
                                               child: Text(
                                                 event.data.title,

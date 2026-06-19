@@ -81,7 +81,7 @@ class HomeScreenView extends StatelessWidget {
         mode: TileType.surfaceContainerLow,
         header: labelHomeAlerts,
         child: ImplicitlyAnimatedList(
-          padding: EdgeInsetsGeometry.zero,
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           itemData: clientManager.alertManager.alerts,
           initialAnimation: false,
@@ -98,7 +98,7 @@ class HomeScreenView extends StatelessWidget {
         header: labelHomeRecentActivity,
         child: ImplicitlyAnimatedList(
           shrinkWrap: true,
-          padding: EdgeInsetsGeometry.zero,
+          padding: EdgeInsets.zero,
           itemData: recentActivity!,
           initialAnimation: false,
           physics: const NeverScrollableScrollPhysics(),
@@ -137,7 +137,7 @@ class HomeScreenView extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             ImplicitlyAnimatedList(
-              padding: EdgeInsetsGeometry.zero,
+              padding: EdgeInsets.zero,
               physics: const NeverScrollableScrollPhysics(),
               initialAnimation: false,
               shrinkWrap: true,
@@ -182,7 +182,7 @@ class HomeScreenView extends StatelessWidget {
         mode: TileType.surfaceContainer,
         header: labelHomeInvitations,
         child: ImplicitlyAnimatedList(
-          padding: EdgeInsetsGeometry.zero,
+          padding: EdgeInsets.zero,
           physics: const NeverScrollableScrollPhysics(),
           initialAnimation: false,
           shrinkWrap: true,
