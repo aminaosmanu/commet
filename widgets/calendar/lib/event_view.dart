@@ -54,8 +54,8 @@ class EventViewBox extends StatelessWidget {
                             height: double.infinity,
                             child: Align(
                               alignment: rotate
-                                  ? AlignmentGeometry.topRight
-                                  : AlignmentGeometry.topLeft,
+                                  ? Alignment.topRight
+                                  : Alignment.topLeft,
                               child: DecoratedBox(
                                 decoration: BoxDecoration(
                                     color: color,

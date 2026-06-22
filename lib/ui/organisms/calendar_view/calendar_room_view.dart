@@ -56,7 +56,7 @@ class _CalendarRoomViewState extends State<CalendarRoomView> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(8, 8, 8, 0),
           child: ClipRRect(
-            borderRadius: BorderRadiusGeometry.only(
+            borderRadius: BorderRadius.only(
               topLeft: Radius.circular(8),
               topRight: Radius.circular(8),
             ),

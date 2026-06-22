@@ -245,7 +245,7 @@ class UserProfileViewState extends State<UserProfileView> {
                                 ),
                     ),
                     Align(
-                        alignment: AlignmentGeometry.topRight,
+                        alignment: Alignment.topRight,
                         child: Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: ClipRRect(
