@@ -236,7 +236,7 @@ class EventViewBox extends StatelessWidget {
                     Align(
                       alignment: Alignment.bottomRight,
                       child: ClipRRect(
-                        borderRadius: BorderRadiusGeometry.only(
+                        borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(6)),
                         child: Container(
                           color: color,

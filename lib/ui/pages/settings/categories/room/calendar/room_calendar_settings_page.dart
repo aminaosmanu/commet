@@ -142,7 +142,7 @@ class _RoomCalendarSettingsPageState extends State<RoomCalendarSettingsPage> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Align(
-                      alignment: AlignmentGeometry.centerRight,
+                      alignment: Alignment.centerRight,
                       child: tiamat.Button.secondary(
                         text: "Run Sync",
                         isLoading: runningSync,

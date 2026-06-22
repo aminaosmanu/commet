@@ -263,7 +263,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
                       child: Padding(
                         padding: const EdgeInsets.fromLTRB(8, 0, 8, 0),
                         child: Align(
-                            alignment: AlignmentGeometry.centerLeft,
+                            alignment: Alignment.centerLeft,
                             child: Text(pack.displayName)),
                       ),
                     ),

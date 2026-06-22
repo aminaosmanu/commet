@@ -206,7 +206,7 @@ class _CalendarViewWeekState extends State<CalendarViewWeek> {
               ),
               if (widget.useMobileLayout)
                 Align(
-                  alignment: AlignmentGeometry.bottomCenter,
+                  alignment: Alignment.bottomCenter,
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(

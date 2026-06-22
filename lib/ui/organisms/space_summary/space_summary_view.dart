@@ -345,7 +345,7 @@ class SpaceSummaryViewState extends State<SpaceSummaryView> {
               )),
         ),
         Align(
-          alignment: AlignmentGeometry.center,
+          alignment: Alignment.center,
           child: Padding(
               padding: const EdgeInsets.fromLTRB(0, 150, 0, 0),
               child: ScaledSafeArea(

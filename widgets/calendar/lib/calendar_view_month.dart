@@ -170,7 +170,7 @@ class _CalendarViewMonthState extends State<CalendarViewMonth> {
           ),
           if (widget.useMobileLayout)
             Align(
-              alignment: AlignmentGeometry.bottomCenter,
+              alignment: Alignment.bottomCenter,
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(

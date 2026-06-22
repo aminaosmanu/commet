@@ -221,7 +221,7 @@ class _CalendarEventEditorState extends State<CalendarEventEditor> {
                             label: SizedBox(
                                 width: 70,
                                 child: Align(
-                                    alignment: AlignmentGeometry.centerRight,
+                                    alignment: Alignment.centerRight,
                                     child: Text(formatter.format(startTime)))),
                           ),
                       ],
@@ -273,7 +273,7 @@ class _CalendarEventEditorState extends State<CalendarEventEditor> {
                             label: SizedBox(
                                 width: 70,
                                 child: Align(
-                                    alignment: AlignmentGeometry.centerRight,
+                                    alignment: Alignment.centerRight,
                                     child: Text(formatter.format(endTime)))),
                           ),
                         ],

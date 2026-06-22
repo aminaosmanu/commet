@@ -75,8 +75,8 @@ class _SpaceHeaderState extends State<SpaceHeader> {
                   decoration: BoxDecoration(
                       gradient: widget.space.avatar != null
                           ? LinearGradient(
-                              begin: AlignmentGeometry.bottomCenter,
-                              end: AlignmentGeometry.topCenter,
+                              begin: Alignment.bottomCenter,
+                              end: Alignment.topCenter,
                               colors: [colorScheme.primary, Colors.transparent],
                             )
                           : null),

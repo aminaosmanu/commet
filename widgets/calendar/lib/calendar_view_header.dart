@@ -76,7 +76,7 @@ class CalendarViewHeader extends StatelessWidget {
           child: Text(getHeaderText()),
         ),
         Align(
-            alignment: AlignmentGeometry.centerRight,
+            alignment: Alignment.centerRight,
             child: createLayoutButtons(context)),
       ],
     );
