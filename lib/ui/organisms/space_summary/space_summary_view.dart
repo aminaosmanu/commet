@@ -350,7 +350,7 @@ class SpaceSummaryViewState extends State<SpaceSummaryView> {
               padding: const EdgeInsets.fromLTRB(0, 150, 0, 0),
               child: ScaledSafeArea(
                 child: Avatar.extraLarge(
-                  border: BoxBorder.all(
+                  border: Border.all(
                       color: Theme.of(context).colorScheme.surface,
                       width: 10,
                       style: BorderStyle.solid,

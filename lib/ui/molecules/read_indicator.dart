@@ -47,7 +47,7 @@ class ReadIndicator extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.fromLTRB(index.toDouble() * spacing, 0, 0, 0),
         child: tiamat.Avatar(
-          border: BoxBorder.all(
+          border: Border.all(
               color: ColorScheme.of(context).surfaceContainerLow,
               width: 2,
               strokeAlign: 0.5),

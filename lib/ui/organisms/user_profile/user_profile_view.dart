@@ -384,7 +384,7 @@ class UserProfileViewState extends State<UserProfileView> {
                                             ? widget.onSetAvatar
                                             : null,
                                         child: tiamat.Avatar.large(
-                                          border: BoxBorder.all(
+                                          border: Border.all(
                                               color: background,
                                               width: 8,
                                               strokeAlign: 0.9),
@@ -693,7 +693,7 @@ class UserProfileViewState extends State<UserProfileView> {
       padding: const EdgeInsets.fromLTRB(16, 8, 8, 12),
       child: Container(
           decoration: BoxDecoration(
-              border: BoxBorder.all(color: background, width: 4),
+              border: Border.all(color: background, width: 4),
               color: Theme.of(context).colorScheme.secondary,
               borderRadius: BorderRadius.circular(12)),
           child: Padding(

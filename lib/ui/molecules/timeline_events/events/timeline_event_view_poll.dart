@@ -193,7 +193,7 @@ class _TimelineEventViewPollState extends State<TimelineEventViewPoll>
               },
         child: Container(
           decoration: BoxDecoration(
-              border: BoxBorder.all(
+              border: Border.all(
                   color: isOurResponse
                       ? ColorScheme.of(context).onSurface.withAlpha(150)
                       : Colors.transparent,

@@ -46,7 +46,7 @@ class _DoublePreferenceSliderState extends State<DoublePreferenceSlider> {
     return Container(
       decoration: BoxDecoration(
           color: ColorScheme.of(context).surfaceContainer.withAlpha(100),
-          border: BoxBorder.all(
+          border: Border.all(
               color: ColorScheme.of(context).secondary.withAlpha(20)),
           borderRadius: BorderRadius.circular(8)),
       child: Padding(
