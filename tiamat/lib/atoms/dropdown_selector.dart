@@ -38,7 +38,7 @@ class DropdownSelector<T> extends StatelessWidget {
               child: DropdownButton2(
             menuItemStyleData: MenuItemStyleData(height: itemHeight),
             value: value,
-            hintText: hint,
+            hint: hint,
             dropdownStyleData: DropdownStyleData(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(
