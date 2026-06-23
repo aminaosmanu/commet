@@ -71,7 +71,7 @@ class _JoinRoomViewState extends State<JoinRoomView> {
             TextField(
               controller: controller,
               decoration: InputDecoration(
-                  label: Text(promptRoomAddress),
+                  labelText: promptRoomAddress,
                   hintText: tiamat.Text.labelLow(placeholderRoomAlias)),
               onChanged: (value) {
                 onTextChanged(value);
