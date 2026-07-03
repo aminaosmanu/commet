@@ -72,7 +72,7 @@ class _JoinRoomViewState extends State<JoinRoomView> {
               controller: controller,
               decoration: InputDecoration(
                   labelText: promptRoomAddress,
-                  hintText: tiamat.Text.labelLow(placeholderRoomAlias)),
+                  hintText: placeholderRoomAlias),
               onChanged: (value) {
                 onTextChanged(value);
               },
