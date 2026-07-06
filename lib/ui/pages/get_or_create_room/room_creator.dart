@@ -77,7 +77,7 @@ class RoomFieldTopic implements RoomField {
         onArgsChanged();
       },
       maxLines: 3,
-      decoration: InputDecoration(hintText: tiamat.Text.labelLow(promptTopic)),
+      decoration: InputDecoration(hintText: promptTopic),
     );
   }
 
