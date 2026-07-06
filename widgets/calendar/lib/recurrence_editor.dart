@@ -50,7 +50,7 @@ class _RecurrenceRuleEditorState extends State<RecurrenceRuleEditor> {
           Padding(
             padding: const EdgeInsets.fromLTRB(0, 8, 0, 8),
             child: DropdownButtonFormField<String>(
-              initialValue: frequency,
+              value: frequency,
               items: [
                 DropdownMenuItem(
                   child: Text("Never"),
