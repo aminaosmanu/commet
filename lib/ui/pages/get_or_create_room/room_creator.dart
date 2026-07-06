@@ -48,7 +48,7 @@ class RoomFieldName implements RoomField {
         args.name = value;
         onArgsChanged();
       },
-      decoration: InputDecoration(hintText: tiamat.Text.labelLow(promptRoomName)),
+      decoration: InputDecoration(hintText: promptRoomName),
     );
   }
 
