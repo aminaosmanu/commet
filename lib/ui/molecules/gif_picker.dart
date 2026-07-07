@@ -121,7 +121,7 @@ class _GifPickerState extends State<GifPicker> {
                   icon: const Icon(Icons.search),
                   isDense: true,
                   border: InputBorder.none,
-                  hint: widget.placeholderText),
+                  hintText: widget.placeholderText),
             )),
       ),
     );
