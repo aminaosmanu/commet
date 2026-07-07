@@ -130,7 +130,7 @@ class DropdownTextFieldState extends State<DropdownTextField> {
                                 controller: _textEditingController,
                                 decoration: InputDecoration(
                                     border: InputBorder.none,
-                                    hintText: widget.textEditorPlaceholder),
+                                    hint: widget.textEditorPlaceholder),
                               )),
                         );
                       }

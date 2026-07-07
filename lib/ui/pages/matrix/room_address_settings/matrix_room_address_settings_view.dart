@@ -212,7 +212,7 @@ class _MatrixRoomAddressSettingsViewState
             items: widget.knownAliases,
             value: widget.mainAlias,
             itemHeight: 60,
-            hintText: widget.canChangeMainAlias
+            hint: widget.canChangeMainAlias
                 ? "Select a main room address"
                 : "This room does not have a set main alias",
             onItemSelected: (item) => widget.setMainAlias(item!),
