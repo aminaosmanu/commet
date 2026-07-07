@@ -1029,7 +1029,7 @@ class MessageInputState extends State<MessageInput> {
                   border: InputBorder.none,
                   isDense: true,
                   hintStyle: hintStyle,
-                  hint: widget.hintText),
+                  hintText: widget.hintText),
             ),
           ),
         ],
