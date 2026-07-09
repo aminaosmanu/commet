@@ -6,7 +6,7 @@ import 'package:commet/ui/navigation/adaptive_dialog.dart';
 import 'package:commet/ui/pages/matrix/room_address_settings/matrix_room_add_local_alias_view.dart';
 import 'package:flutter/material.dart';
 import 'package:implicitly_animated_list/implicitly_animated_list.dart';
-import 'package:tiamat/tiamat.dart';
+import 'package:tiamat/tiamat.dart' hide Text;
 import 'package:tiamat/tiamat.dart' as tiamat;
 
 class MatrixRoomAddressSettingsView extends StatefulWidget {
